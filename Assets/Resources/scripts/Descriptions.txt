@@ -1,0 +1,708 @@
+Despite its simple structure compared to other elements, the neutron in isolation plays little role in nuclear or chemical reactions. This is because there are no stable nuclei with no protons -- the neutron decays to a proton with a half-life of just under 15 minutes.
+
+Most of the neutrons in the universe are produced in stellar fusion reactions and in the fission of heavier elements, and these neutrons rapidly decay into protons or are absorbed by other nuclei. They also lack the electrostatic reactivity to participate in chemical reactions. Because of this combination of nuclear instability and lack of chemical properties, neutrons are not typically considered to be atoms and do not appear on most periodic tables.
+
+Inside nuclei containing protons, neutrons mediate the electrostatic repulsion of protons through the residual strong force, allowing the existence of stable nuclei beyond hydrogen as well as the stability of the nuclear neutrons themselves.
+------
+Hydrogen is by far the most common element in the universe. The vast majority of it was created in the big bang, along with smaller amounts of helium. Because of this, it dominates nuclear and chemical reactions throughout most of the universe. It comprises most of the universe's plasma and provides the majority of fuel for nucleosynthesis in stars.
+
+Hydrogen is continuously converted into helium in the cores of stars, where it serves as the basis for production of all further elements. Some astrophysicists use the fusion of hydrogen isotopes as part of the definition for the boundary between stars and less massive objects.
+
+Because hydrogen has only a single proton, chemicals will often display different characteristics if their hydrogen contents are replaced with different hydrogen isotopes. For example, H2O containing two H-2 nuclei is about 10% denser than H2O containing two H-1 nuclei.
+
+Hydrogen will readily reduce most elements to form binary hydrides, and forms a wide variety of compounds due to its reactivity and abundance.
+------
+Helium is the second most common element in the universe, after hydrogen. Most existing helium was produced in the big bang, though large amounts are continuously produced from hydrogen in stellar nucleosynthesis. Helium-4 is extremely stable against fusion, so the production of heavier elements requires extreme temperatures and pressures. Because of this, helium is 12 times more common than all heavier elements combined.
+
+As the first element in the periodic table with a full electron shell, helium holds several extreme properties. It is almost entirely inert, has the highest ionization energy of all elements, boils at the lowest temperature, and does not freeze at all.
+
+Most commercial uses of helium exploit its thermal conductivity (as a coolant) or its inertness (as an inert atmosphere), but helium is also used as a lifting gas in balloons.
+
+Helium was identified by its spectral lines in the sun before being observed on Earth. It mostly occurs on Earth trapped in rocks after being produced from radioactive decay, which produces helium nuclei.
+------
+Lithium is the first metal of the periodic table and the first alkali metal. It is the least dense metal, and the least dense solid element at STP at around 0.534 g/cm^3. Very small amounts of lithium were produced in the big bang, though most lithium present today occurs from interactions of heavier elements with high-energy cosmic rays and fusion in low-mass stars.
+
+Lithium in its pure form rapidly oxidizes, and will even be oxidized by nitrogen. However, it tends to occur in conjunction with other light metals along with oxygen, most notably in Earth's crust.
+
+Commercially, lithium is mostly used for its ability to alter physical and thermal properties of glasses and metals, as well as for its high electrical potential and conductivity in conjunction with its low mass, which makes it a good material for batteries.
+
+Lithium's biological role is not established but it appears to play some role as a trace nutrient in neurological systems.
+------
+Like lithium, beryllium is rare for such a light element, but is even rarer and almost exclusively produced in cosmic ray nuclear events, as beryllium is easily consumed in the cores of even lower mass stars. It is so readily fusioned into other elements that it is the rarest element in the first four periods of the periodic table.
+
+Because of its small covalent radius, beryllium almost exclusively bonds covalently, a characteristic usually only seen in metalloids and non-metals.
+
+Because of its unique nuclear properties and thermal stability, beryllium is the material of choice for building x-ray and particle accelerator casings, and its oxide is commonly used as a refractory material. It is also a relatively cheap neutron source, capable of reliably producing one neutron per atom when struck by a high energy alpha particle. In fact, a beryllium target was the material used in James Chadwick's 1932 discovery of the neutron.
+
+Beryllium is highly toxic when incorporated into the body, where it quickly and irreversibly displaces magnesium and calcium due to its strong bond strength and small atomic radius.
+------
+Like lithium and beryllium before it, boron is comparatively rare because it is readily consumed in nuclear reactions in stars, and is instead almost entirely produced from cosmic ray spallation.
+
+Boron forms a wide variety of covalent compounds, and displays much of the versatility of carbon compounds. Because of this versatility and chemical similarity to carbon, it is difficult to prepare pure boron, mostly due to issues with removing carbon impurities.
+
+Boron compounds are typically nontoxic to humans, but boron's biological role in mammals has not been confirmed. Boron is highly toxic to arthropods and many types of single-cellular organisms and viruses, but is an essential trace nutrient in plants.
+
+Boron finds most of its commercial use in the production of refractory glasses, semiconductor chips, and neutron moderating materials.
+------
+Carbon is the first element after helium which is produced in massive quantities in stars, and is estimated to be the fourth most common element in the universe, after hydrogen, helium, and oxygen. Carbon is the first stable element which can be produced by rapid fusion of helium nuclei. (Beryllium-8 is extremely unstable)
+
+Despite its abundance in the universe, carbon is underrepresented on Earth because it can combine with hydrogen to form methane, which easily escapes from early planetary atmospheres. This process also reduced the abundance of hydrogen and helium on Earth.
+
+Carbon forms a wider range of compounds than any other element. This versatility allows for rapid and varied metabolic processes on Earth by lifeforms carrying out carbon-based reactions. The combination of versatility with abundance has even led to doubts as to whether life based on some other element is possible at all.
+
+Carbon is extremely important commercially, even in inorganic compounds. Carbon is used both to soften and harden materials, to create light and strong materials, for sharpening many softer materials, and as a chemical sponge.
+------
+Nitrogen is mostly produced in stars from neutron and proton capture processes involving carbon.
+
+Nitrogen forms one of the strongest known chemical bonds when it forms a triple bond with itself, and because of this, many nitrogen compounds will energetically or even explosively react to produce diatomic nitrogen. Despite this, it plays a crucial role in many metabolic processes, primarily in the forms of ammonia and ammonium. It also plays an essential role in the form of a wide variety of organic molecules, and along with oxygen, carbon, and hydrogen forms the bulk of most biological tissues.
+
+Nitrogen is one of the most important commercial elements due to its importance in biology, but it also finds non-biological applications in the production of polymers such as nylon. Due to its inert nature and abundance on Earth, nitrogen is also used in synthetic atmospheres and as a nonreactive cryogenic liquid.
+------
+Oxygen is the third most common element in the universe, after hydrogen and helium. It is primarily produced in stars from the fusion of helium nuclei with carbon and nitrogen.
+
+Like nitrogen, oxygen forms strong diatomic molecules. Unlike nitrogen, these bonds are weak enough for oxygen molecules to break and oxidize almost every element except the noble gases. Because of this volatility and its abundance, oxygen is typically used as a standard of measurement for how readily other elements will give up electrons (and this process is even named oxidation after oxygen).
+
+Oxygen is the most common element in most biological tissues by weight, and the majority is bound in water, or H2O. The complementary natures of oxygen and hydrogen, like that of carbon itself, allow for a wide variety of chemistries, with oxygen being incorporated into a wide variety of volatile metabolic and structural compounds.
+
+Although oxygen frequently occurs as a contaminating oxide of many elements, some oxygen reactions allow purifications, such as the removal of carbon from iron to make steel. Oxygen is also used in some inorganic chemicals and polymers.
+------
+Fluorine is rare compared to neighboring elements in the table. Most fluorine produced in stars is quickly converted to oxygen or neon, with the majority of free fluorine thought to be produced in solar wind, nova, and supernova losses of this element before it is converted.
+
+Fluorine is the most electronegative element and forms a relatively weakly bound diatomic gas. These factors make pure fluorine extremely reactive and toxic - fluorine is a stronger oxidizer than oxygen, and will even oxidize some of the noble gases. None of these compounds are known to play an active biological role, though some plants produce organic fluorine compounds as defense against herbivores and dilute amounts of fluorine can aid bone mineralization in vertebrates.
+
+Fluorine is mostly used as a temperature and viscosity moderator in the smelting of steel, and in the production of fluorocarbons, which are mostly used as refrigerants. Fluorine-18 is also a common isotope used in PET scans.
+------
+Neon is the fifth most abundant chemical element in the universe, just under the abundance of carbon and oxygen. Like carbon and oxygen before it, it is mostly produced in stars by the fusion of lighter nuclei with helium. Elements after neon show a steady decline in abundance, with a bias in abundance towards even-numbered elements.
+
+Like helium, neon's small atomic radius and full electron shell make it very chemically inert; no uncharged neon compounds are known. Unlike helium, neon also has a full octet of electrons, which stabilizes it further.
+
+Neon is more difficult to separate in large quantities than helium because the latter can be extracted from pockets of rock containing radioactive minerals. Neon can only be extracted from the atmosphere and is much more expensive than helium.
+
+Neon is mostly used as an inert atmosphere, as a gain medium in lasers, and as a cryogenic, like helium. It is also used in lights, where the neon is ionized by a current to produce light. Such lights normally cannot use helium as helium diffuses too quickly through many cheaper materials.
+------
+Sodium (Latin: Natrium) is an unremarkable element from the nuclear perspective, produced mostly at the end of the life of medium and high-mass stars. It is much more abundant than lithium.
+
+Sodium is more reactive than lithium, and will react violently if mixed with oxidizers. This reactivity allows it to form a wide variety of salts, which are used in applications ranging from materials production and electrical components. Sodium is used biologically for pH regulation and as a major electrolyte.
+
+Most commercial applications of sodium make use of its pH and osmotic properties, but sodium is also used in alloys, plasma lamps, and a heat transfer liquid at high temperatures.
+------
+Magnesium is an unremarkable even-numbered element produced by medium and high-mass stars at the end of their lives. It is much more abundant than beryllium.
+
+Magnesium is more reactive than beryllium, and will quickly oxidize when exposed to oxygen, nitrogen, or halogens, typical of the alkaline earths. Forms with high surface area, such as powder or strips, will spontaneously ignite on contact with oxidizers. Like sodium before it, magnesium forms a wide variety of salts and is an essential biological nutrient. Magnesium plays a central role in nearly all organic phosphate chemistry, mostly in the synthesis and use of ATP.
+
+Magnesium metal is the third-most massively used metal, after iron and aluminium. Magnesium is widely used in nearly all fields due to its light weight, mechanical strength, and low toxicity.
+------
+Aluminum (US) or aluminium (UK) is an odd-numbered element, mostly produced by medium and high-mass stars at the end of their lives.
+
+Although aluminium oxidizes rapidly in air, this results in the passivation of the metal, or the formation of a thin protective oxide layer. Aluminium is also generally nonreactive with many other elements, and is generally nontoxic. It has no known biological role.
+
+Aluminium is the second-most used industrial metal, after iron. It finds widespread use in alloys due to its light weight, malleability, and general resistance to corrosion. Some compounds find uses outside alloys, such as catalysts and water purification.
+------
+Silicon is an even-numbered element produced by medium and high-mass stars at the end of their lives and by white dwarfs in type Ia supernovae.
+
+Silicon typically only oxidizes when exposed to high temperatures, but it will readily react with fluorine. Tectonic activities typically produce hundreds of different silicon compounds containing mixtures of silicon oxides and other compounds, known as silicates. These compounds are light and ubiquitous enough that they form the majority of the surface of most planets that form too close to their stars for ice to exist.
+
+Silicon is an essential trace nutrient, incorporated into many types of cell walls, and is used in the fabrication of cell membranes and connective tissues. Examples include diatom skeletons, phytoliths in plants, and collagen in animals.
+
+Most silicon is used in naturally occurring mineral form as glass, ceramics, and structural materials, but pure silicon is a semiconductor and is the main material used in the fabrication of many electronics.
+------
+Phosphorus is an odd-numbered element produced by medium and high-mass stars at the end of their lives and in small amounts by white dwarfs in type Ia supernovae. Phosphorus is the first element whose year of discovery was recorded, and was first separated from urine in 1669.
+
+Phosphorus reacts very strongly with oxidizers and will spontaneously ignite upon contact with oxygen. Other than this, phosphorus forms a wide variety of compounds similarly to nitrogen, many of which are essential for life. Phosphate groups play a wide variety of roles in organic chemistry, including metabolism and cell membrane fabrication, and phosphate groups are found in abundance in DNA and RNA.
+
+The majority of commercial phosphorus is used to produce fertilizers, but small amounts are also used in alloys, metal and water treatment, and in matches.
+------
+Sulfur (US) or sulphur (UK) is an even-numbered element produced by medium and high-mass stars at the end of their lives and by white dwarfs in type Ia supernovae.
+
+Sulfur reacts with nearly all elements, and will typically form compounds even with metals that oxygen does not react with. Because of this, some other elements are typically only found as sulfides, whereas others are typically mostly found as mixed oxides. These wide varieties of compounds often play biological roles in almost every type of tissue in living organisms. Some single celled organisms even use sulfates instead of oxides in their metabolic processes.
+
+Most isolated sulfur is used in the production of sulfuric acid, which is a versatile acid mostly used for the extraction of chemical elements from minerals, especially phosphorus for use in fertilizers. Sulfur may also be used directly in fertilizers or converted into compounds used as pesticides or pharmaceuticals.
+------
+Chlorine is an odd-numbered element produced by medium and high-mass stars at the end of their lives, and in small amounts by white dwarfs in type Ia supernovae.
+
+As a halogen, pure chlorine is extremely reactive, though not as reactive as fluorine. It is essentially entirely bound in compounds or in solution, particularly with the most common alkali metal sodium. Sodium chloride comprises the vast majority of all chlorine that occurs on Earth and is effectively the only economical source of chlorine. 
+
+Most organisms use chlorine anions in the normal functioning of charge gradients across their membranes, which makes chlorine essential for neuron, endocrine, and membrane functions. Metabolic chlorine is rarer but does occur, mostly in smaller amounts in simpler organisms.
+
+Chlorine compounds are primarily used in disinfection or as refrigerants or to synthesize organic polymers.
+------
+Argon is an even-numbered element produced by medium and high-mass stars at the end of their lives, and in small amounts by white dwarfs in type Ia supernovae. This process produces a large amount of Ar-36, but in rocky environments such as the terrestrial planets, Ar-40 dominates instead, as it is produced in large amounts by the decay of K-40. This means that in terrestrial environments, argon nuclei are more massive on average than the next element potassium.
+
+Argon was the first noble gas to be isolated, and was first isolated in 1894. Helium was discovered earlier in 1868 but was not isolated until 1895.
+
+Argon is the third noble gas and is thus relatively unreactive. Some argon compounds are known, but all decompose above a few tens of kelvins. Argon is thus mostly used as an inert atmosphere for welding, fire extinguishing, and storage of oxygen-sensitive materials. Argon is heavy enough to be present in sufficient quantities in Earth's atmosphere, and is thus significantly more abundant and significantly cheaper than neon.
+------
+Potassium (Latin: Kalium) is an odd-numbered element produced by medium and high-mass stars at the end of their lives, and by white dwarfs in type Ia supernovae. One isotope, K-40, is long-lived enough that it is a significant source of heat over geological timescales in the interiors of terrestrial planets.
+
+Potassium is the second least dense metal after lithium, but is more reactive than both lithium and sodium. Pure sodium will explosively react on contact with pure oxygen or oxygen compounds, and like sodium is primarily found in minerals and in solution. Its ions are used by many organisms in the formation of a charge gradient, along with sodium and hydrogen.
+
+Most commercial potassium is used in fertilizers, bases, and --seemingly paradoxically-- in oxidizing chemicals. Sodium-potassium alloys have the lowest known melting points of any alloys: the lowest known melting point of any alloy is a mixture of 12% Na, 47% K, and 41% Cs with a melting point of 195 K, lower than mercury.
+------
+Calcium is an even-numbered element produced by medium and high-mass stars at the end of their lives and by white dwarfs in type Ia supernovae. Calcium has two unusual isotopes. Ca-40 is the heaviest stable nucleus with equal numbers of protons and neutrons. Ca-48 has an unusually high neutron-to-proton ratio of 1.4 but a half life of 6.4e19 years, making it useful in the synthesis of the superheavy elements. Nearly-stable isotopes with similar neutron-proton ratios are not encountered until cadmium, 28 elements later. Both of these isotopes have a full outer proton and neutron shell.
+
+Pure calcium oxidizes rapidly, so calcium is most frequently encountered in minerals or solution. Many organisms use calcium as an electrolyte or for charge gradients, and calcium is also found in some enzymes. Calcium is also used in large quantities in biological structural materials like cell walls, skeletons, and exoskeletons.
+
+Commercially, calcium is mostly used in the production of steel, though it can used in alloys and to remove nitrogen from air.
+------
+Scandium is an odd-numbered element produced by medium and high-mass stars at the end of their lives, and in small amounts by white dwarfs in type Ia supernovae.
+
+Scandium is the first transition metal, but is chemically similar to aluminium - it oxidizes slowly, forming a passivating oxide layer. It is rarer than all other transition metals of its period, but more common than most elements past these. Like most transition metals, scandium is almost never found in isolation, usually occurring in minerals with more common transition metals.
+
+Because scandium usually occurs at low concentrations in combination with other transition metals, it is difficult to separate and its biological role, if any exists, has not been established.
+
+Scandium is primarily used in the production of light strong alloys along with aluminium, with smaller amounts being used in metal halide lamps. Production of scandium is very small for such a large element: only 10-15 tons were produced worldwide in 2015.
+------
+Titanium is an even-numbered element produced mostly by white dwarfs in type Ia supernovae, but is also produced by medium and high-mass stars at the end of their lives.
+
+Titanium oxidizes upon exposure to air, forming a protective oxide layer. Upon heating, it exhibits the unusual property of being oxidized by nitrogen, and is sometimes used to extract nitrogen in the creation of vacuums. Like most transition metals, titanium normally occurs in combination with other metals in oxide minerals. Titanium has no known biological role in any organisms and is so non-toxic that it is often used for metallic implants.
+
+Most titanium is used in the production of pigments and alloys. Titanium improves iron alloys by reducing crystal sizes and oxidation rates.
+------
+Vanadium is an odd-numbered element produced mostly by white dwarfs in type Ia supernovae and by medium and high-mass stars at the end of their lives.
+
+Vanadium is chemically unusual in that it normally forms mixtures of oxidation states 2 to 5. Vanadium has a high affinity for water for a transition metal, and can be found in detectable quantities dissolved in seawater. Because of this affinity, many marine organisms use small amounts of vanadium in their biology. The biological role of vanadium in land-based organisms is not established, and vanadium is toxic in high concentrations.
+
+Most vanadium is used to alloy steel, which increases the strength of the steel. Vanadium can also be used as a catalyst in the creation of sulfuric acid and in the lining of nuclear reactors, because its only stable isotope is a decent neutron absorber and rapidly decays back to stable chromium after absorbing a neutron.
+------
+Chromium is an even-numbered element almost entirely produced by white dwarfs in type Ia supernovae. Much smaller amounts are produced by medium and high-mass stars at the end of their lives.
+
+Natural chromium tends to oxidize when exposed to nitrogen or oxygen, but chromium can also rarely be found in pure form in deposits. It is the first element that does not follow the Aufbau principle - chromium has two additional d electrons and one less s electron compared to vanadium, instead of one additional d electron. Some chromium compounds are toxic, but there is also evidence that trace amounts of chromium might play a biological role in metabolism.
+
+Most chromium is used in the production of corrosion resistant alloys, such as stainless steel. Smaller amounts are used in dyes, refractory materials, and as catalysts.
+------
+Manganese is an odd-numbered element mostly produced by white dwarfs in type Ia supernovae and by medium and high-mass stars at the end of their lives.
+
+Manganese is part of the iron-group elements, produced in bulk by higher mass stars just before going supernova. These elements all rust without forming a protective oxide layer, which causes samples of pure manganese to very slowly erode and disintegrate over time. This affinity for oxygen is exploited by biological systems as an antioxidant and component of photosynthetic enzymes.
+
+Most manganese is used to alloy steel, where it increases the strength of the steel and regulates its oxygen content. Manganese is also used in aluminium alloys, glasses, and as a reagent in chemical reactions due to its affinity for oxygen.
+------
+Iron (Latin: Ferrum) is an even-numbered element produced both by white dwarfs in type Ia supernovae and by medium and high-mass stars at the end of their lives. Iron is the 6th most abundant element, unusually common in the universe for its atomic mass. This is because medium and high-mass stars continue to add helium nuclei to higher elements towards the end of their life, ending with the production of Ni-56, which eventually decays twice to Fe-56. Elements heavier than iron are predicted to decay extremely slowly to iron on extremely long timescales greatly exceeding the age of the universe.
+
+Iron gave its name to the iron group metals, metals which oxidize without the formation of a protective oxide layer, which slowly destroys materials made from pure iron in a process called rusting. Despite this, iron's abundance and hardness allowed it to be exploited as a superior building and weapon material to the earlier copper and bronze, and became so important to humans that societies exploiting iron but not steel are typically summarized as "iron age" societies.
+
+Iron is the most widely exploited metal, comprising 90% of worldwide metal production. Most of this is used in structures and tools, usually after being alloyed to produce steel. Smaller amounts are used in catalysts and dyes.
+
+Iron is the most abundant and most important transition metal for most organisms. Its high affinity for oxygen is used in a wide variety of enzymes both for oxygen sequestering and as an antioxidant. It thus plays a very important role in almost all metabolic processes. Some bacteria even use iron instead of glucose in their metabolic pathways.
+------
+Cobalt is an odd-numbered element produced both by white dwarfs in type Ia supernovae and by higher mass stars through the r-process in supernovae. It is the lightest element (excluding hydrogen) that is not produced inside stars through main-sequence fusion processes. Cobalt compounds have been known since antiquity, but cobalt was not known to be an element until 1735. It was the second element whose discovery is recorded. Cobalt was the second element whose discovery year was recorded.
+
+Unlike iron before it, cobalt forms a protective oxide layer when exposed to oxygen. Many compounds of cobalt are brightly colored, and many were historically used for the dying of glass. It is also found in organisms, where it is included in compounds responsible for DNA and amino acid synthesis, such as vitamin B12.
+
+Most cobalt is used in the production of alloys, which are often cheaper than nickel, corrosion resistant, and stable at high temperatures. Cobalt is also used in lithium battery cathodes and as a catalyst.
+------
+Nickel is an even-numbered element produced in large amounts in both white dwarfs in type Ia supernovae and at the very end of the lives of higher mass stars. In higher mass stars, the last day or so of the star's life is spent fusing silicon nuclei to elements as high as zinc, although Ni-56 is the end product for most nuclei. Any Ni-56 that escapes the star in the following supernova decays quickly to Fe-56, so this process does not produce the stable isotopes of nickel. Instead, isotopes Ni-58 to Ni-64 are produced in the r process in supernovae, a process lasting approximately a second in which nuclei rapidly capture neutrons and form elements as high as Fermium. Because Fe-52 and Ni-56 are available in large quantities at this stage, supernovae produce large amounts of stable nickel directly and nickel is almost as common as iron in the universe.
+
+Nickel has two electron configurations that are very close in energy: [Ar] 3d8 4s2 and [Ar] 3d9 4s1. These configurations mix in nickel compounds and complicate modelling of nickel's properties. Nickel is also one of only four metals known to be magnetic around room temperature. Nickel forms compounds in a range of oxidation states, like most neighboring transition metals, and some organisms use it in their metabolism.
+
+The vast majority of nickel is used in alloys, mainly stainless steel. A small amount is used in catalysts. Nickel has a high affinity for all six platinum group metals these metals can often be economically recovered from nickel deposits.
+------
+Copper (Latin: Cuprum) is an odd-numbered element primarily produced both by type Ia and by type II supernovae. Like nickel, formation of its stable isotopes occurs during the r-process of rapid neutron capture. It has been known since antiquity and is the first metal most societies learned to work into tools and jewelry. It is one of the few metals that is brightly colored instead of silvery -- this is due to interactions between its full 3d subshell and half-full 4s subshell.
+
+Although copper slowly reacts with oxygen and water over time, it can be found in its native form in some deposits. These deposits were used by early societies for the easy production of copper metal tools and jewelry. Copper's slight affinity for copper is used by all aerobic organisms in enzymes involved in the production of ATP through reactions of sugars with oxygen. Some organisms use copper in oxygen transport enzymes.
+
+During the copper and bronze ages, copper was the main metal used in the production of hard structural and tool materials. After iron and steel replaced these uses, copper is now mostly used in electronics and plumbing. Copper's high electrical conductivity make it a cheap and efficient conductor in electronics, and its ability to form an extremely durable oxide/hydride layer make it a good corrosion-resistant choice for plumbing and roofing.
+------
+Zinc is an even-numbered element produced by type Ia and type II supernovae. Smaller amounts are produced in giant stars in the s-process. Zn-60 is the final nuclide produced by high mass stars before going supernovae and the first whose production consumes more energy than it releases, but this nuclide eventually decays into Ni-60. Synthesis of the heavier stable isotopes occurs during the r-process of rapid neutron capture. Zinc is thought to be the heaviest element produced in type Ia supernovae. Zinc compounds and alloys have been known since antiquity but the element was not isolated until the middle ages.
+
+Zinc is the first member of the group 12 elements, which are not considered to be transition metals by the IUPAC due to their full d subshell. These elements are relatively unreactive with oxygen and instead are usually found in combination with sulfur. Zinc is the most reactive of this group, quickly forming a carbonate outer layer upon contact with air. Zinc compounds show a wide variety of geometries and are able to coordinate multiple types of compounds. This has led to zinc being the second-most abundant transition metal in organisms, where it is used in small amounts in nearly all biological functions as a catalyst and structural atom.
+
+Most zinc is used industrially for galvanizing, where a layer of zinc is applied to a material to make it resistant against corrosion. Zinc is also used in the production of alloys such as brass and bronze, and smaller amounts are used in pigments and catalysts.
+------
+Gallium is an odd-numbered element produced by rapid-neutron capture in type II supernovae and in the s-process in giant stars.. It was the first element to be discovered using theoretical predictions, predicted by Dmitri Mendeleev in 1869 and isolated in 1875.
+
+Gallium has an unusually low melting point for a metal (303 K), a property it shares with mercury, caesium, and rubidium. Gallium, like aluminium above it, is relatively unreactive with oxygen and most other oxidizers at low temperatures, forming only a very thin oxide layer. Due to this nonreactivity and its low melting point, gallium diffuses into most metals and is not found naturally in any concentrated ores. Most commercial gallium is produced as a byproduct of the purification of other ores. Metallic gallium is relatively nontoxic and has no known biological role.
+
+The vast majority of gallium is used in the semiconductor industry, with smaller amounts used in optical components and alloys.
+------
+Germanium is the first even-numbered element produced only by neutron capture processes - it is produced by type II supernovae and by giant stars.
+
+Germanium is unreactive at lower temperatures, and will only oxidize noticeably when heated above 450K. It is also unreactive with dilute acids and bases. Like silicon and carbon before it, germanium forms a wide variety of compounds due to orbital hybridization of its four valence electrons. Like gallium, its relative unreactivity means that it forms almost no concentrated ores, and germanium is mostly produced as a byproduct of other metal production. Its rarity and nonreactivity make it unlikely that it has any biological role.
+
+Most germanium is used to produce optical cables and electronics. The former application is due to the high index of refraction of its oxide, and the latter is due to it being a semiconductor. Smaller amounts of germanium are used in catalysts, with very small amounts used in phosphors and alloys.
+------
+Arsenic is an odd-numbered element produced by the r process in type II supernovae and the s process in giant stars. Arsenic was one of the last elements discovered before the middle ages; it was isolated by Arabian alchemist Jabir ibn Hayyan around 800.
+
+Arsenic is relatively stable against oxidation at lower temperatures, but will tarnish when exposed to moisture. Unlike gallium and germanium before it, arsenic is reactive enough to be concentrated in minerals, and even occurs in concentrated elemental form in certain circumstances. Arsenic is an essential trace nutrient to most organisms and is even used in some bacterial photosynthesis instead of carbon dioxide. Its mechanism of function and exact benefits in higher organisms are unknown, and arsenic is extremely toxic in more than trace concentrations.
+
+Arsenic's toxicity in higher concentrations means that most of its early applications were as an antibiotic, pesticide, and fungicide. With the development of safer medicines, most metallic arsenic is today used in alloys, but small amounts are also used in pigments and glasses.
+------
+Selenium is an even-numbered element produced by the r process in type II supernovae and the s process in giant stars.
+
+Selenium is nonreactive with most oxidizers at low temperatures, but mixes readily with sulfur when forming minerals. Because of this, most selenium is produced as a byproduct of sulfur extraction. Selenium is an essential trace nutrient in most organisms but is toxic in larger concentrations, like arsenic. Many organisms use it as a potent antioxidant, and some use it as a defense against predation.
+
+Most selenium is used in the production of alloys and glasses, with smaller amounts used for catalysts and electronics.
+------
+Bromine is an odd-numbered element produced by the r process in type II supernovae and the s process in giant stars.
+
+As a halogen, bromine is very reactive, though less reactive than chlorine above it. It forms binary compounds with nearly all elements other than the noble gases and is difficult to handle in its pure form due to reactivity. Bromine's biological role is poorly understood, but it may be used in a few functions by some organisms, and many organisms can substitute it for chlorine in many reactions.
+
+Most bromine is used as a flame retardant. These materials convert bromine to hydrobromic acid when they burn, which slows the rate at which the materials can oxidize. Smaller amounts are used as pesticides and fungicides.
+------
+Krypton is an even-numbered element produced by the r process in type II supernovae and the s process in giant stars.
+
+Like the other noble gases above it, krypton is almost completely nonreactive. Due to its larger radius however, krypton is more reactive than argon, and its unstable compounds with fluorine find some niche applications in lasers and as fluorinating agents. Other than this, krypton is mostly used in discharge lamps like the other noble gases.
+------
+Rubidium is an odd-numbered element produced mostly by the r process in type II supernovae.
+
+As an alkali, rubidium is highly reactive, more so than potassium. It will explosively react with air and water even at low temperatures. Rubidium also has a unusually low melting point of 312 K. It has no known biological role, and minerals rich in rubidium are practically unknown. Instead, rubidium is found in small amounts in some potassium minerals. Rubidium has few industrial uses and is primarily used in small amounts in atomic clocks, laser cooling, and fireworks.
+------
+Strontium is an even-numbered element produced mostly by the s process by giant stars. The stable isotopes are Sr-84,86,87,and 88, but Sr-90 is a common fission product in nuclear weapons and reactors, and one of the main radiation hazards from nuclear fallout and nuclear waste.
+
+Strontium shares most of its chemical properties with calcium, is found in similar minerals, and spontaneously combusts on contact with oxygen or water. Its chemical properties are similar enough that many organisms use it alongside or in similar biological structures as calcium, and this substitution has few of the toxic side effects that normally occur from such substitutions. Pure strontium has a slightly yellowish metallic color instead of the transition metal's normal silvery color.
+
+Most strontium is used in the production of CRTs, where it prevents X-ray leakage out of the glass. Smaller amounts are used as radiopharmaceuticals, gas removers in vacuums, and in small scale nuclear power generation.
+------
+Yttrium is an odd-numbered element produced mostly by the s process in giant stars. It is one of four elements named after the Ytterby mine in Sweden, which was also the source of ores used in the discovery of terbium, ytterbium, and erbium. Like strontium immediately before it, yttrium is a common product of fission reactions of heavier nuclei in reactors.
+
+Yttrium shares many chemical properties with the lanthanides one period below it, including its behaviour in ionic solution and reactivity. It is also mostly found in rare-earth minerals. It is, however, purely a d-block metal on the basis of its electron configuration: [Kr] 4d1 5s2. Yttrium forms a stable oxide layer upon exposure to air, but if finely divided it will spontaneously combust. Yttrium has no known biological role and is moderately toxic, especially in its pure form.
+
+Yttrium is mostly used in small amounts in the production of red CRTs, synthetic garnets, alloys, radiopharmaceuticals, and superconductors.
+------
+Zirconium is an even-numbered element mostly produced by the s process in giant stars. Like strontium and yttrium, radioisotopes of this element are a common fission product from heavy nuclei. Zirconium is also the last isotope thought to be produced in noticeable quantities in type II supernovae. Zirconium is produced in small amounts by the fission of heavy nuclei.
+
+Zirconium forms a protective oxide layer when exposed to oxygen, but zirconium powder will spontaneously combust. Zirconium has the fifth-lowest electronegativity of any d block metal (the lowest being lanthanum). It occurs in combination with titanium ores, and less commonly in minerals without titanium. Zirconium is mostly nonreactive and nontoxic and has no known biological role.
+
+Zirconium is mostly used in its dioxide and silicate forms as a refractory material, and is particularly suited for this purpose as it resists corrosion and chemical attack even at high temperatures. Smaller amounts of metallic zirconium are also alloyed with other metals for a similar effect, and used in industries such as nuclear power and aerospace.
+------
+Niobium, also formerly known as columbium in North America, is an odd-numbered element mostly produced by the s process in giant stars. Niobium is produced in small amounts by the fission of heavy nuclei.
+
+Pure niobium slowly tarnishes when exposed to oxygen, forming a bright blue oxide layer. Like zirconium, niobium is relatively nonreactive, and will only react with oxygen and fluorine at lower temperatures. Niobium has a superconductivity point higher than any other known element, at 9.2K. Like zirconium, it has no known biological role and is mostly inert when brought into contact with biological tissues.
+
+Most niobium is used in alloys, particularly steel and nickel/cobalt/iron superalloys. These find diverse applications from buildings to tools and engines. Niobium is also commonly used in several types of superconducting magnets, which are used in MRIs, NMRs, and particle accelerators.
+------
+Molybdenum is an even-numbered element produced by the s process in giant stars and in neutron star mergers. Due to historical confusion with lead, it was named after the Greek word for lead, molybdos. Molybdenum is produced in small amounts by the fission of heavy nuclei.
+
+Molybdenum is even more unreactive than zirconium and niobium before it, and will not even react noticeably with oxygen at lower temperatures. Molybdenum is well known for its ability to form very high bond orders, frequently forming quadruple bonds and being known to even form sextuple bonds in the diatomic phase. Molybdenum is also known to occur in compounds where it is bound to up to 8 other atoms. Many organisms use these unusual chemical properties in enzymes, most notably in nitrogen fixation and oxidation.
+
+Most molybdenum is used in the production of alloys for its extremely high melting point, which improves the thermal stability of metals it is added to. Due to its resistance to oxidation it can also be used as a flame retardant coating. Smaller amounts are used in lubricants, ceramics, and in the production of technetium.
+------
+Technetium is the first of only two elements in the periodic table followed by elements with stable isotopes, the other being promethium. Both of these have no stable isotopes because they have an odd number of protons and their optimal proton-neutron ratios are energetically unfavorable to decay to nearby elements. The longest-lived isotope has a half life of 4.2 million years, and despite prediction in 1871 by Dmitri Mendeleev, this element was the last element lighter than lead to be discovered. Technetium was discovered through after neutron bombardment of molybdenum in a cyclotron, but small amounts occur in nature as a fission product.
+
+Technetium occurs naturally only in trace quantities, and most chemical and radiological applications of technetium must either produce it from molybdenum or extract it from spent nuclear fuel. Due to the radioactivity of the isotopes, technetium has few chemical applications and no natural biological role. When isolated, technetium shows similar properties to the elements just before it in the table, reacting slowly with oxygen and being relatively unreactive otherwise.
+
+The majority of industrial technetium is produced from molybdenum or recovered from spent nuclear waste, and most of this technetium is used to produce Tc-99m for radioimaging. Small amounts can be used as a potent anti-corrosion agent in combination with steel immersed in water, but the radioactivity of the isotopes makes such applications limited.
+------
+Ruthenium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. Small amounts also occur as fission products of heavy nuclides.
+
+As a platinum group metal, ruthenium is very unreactive and will not even react with oxygen or fluorine at low temperatures. It is thus relatively nontoxic in its pure form, but its biological effects are poorly understood because of the rarity of the element. Many of its compounds are likely toxic like their heavier osmium analogs. Ruthenium has no known biological role.
+
+Most ruthenium is used in alloys with lead, bismuth, and the platinum group metals, with limited usefulness in other types of alloys. Ruthenium is also used as a catalyst.
+------
+Rhodium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Very small amounts are also produced by the fission of heavier nuclei.
+
+Rhodium is a relatively inert element, like ruthenium immediately before it. It doesn't react with oxygen at low temperatures, but forms a wide variety of compounds when heated. It is one of the rarest commercial metals because of the rarity of the element and its inability to form concentrated ores. Like ruthenium before it, rhodium is relatively nontoxic but its compounds are very toxic. Rhodium has no known biological role.
+
+Rhodium is used in small amounts (~30 tonnes per year), mostly in the production of catalysts. Smaller amounts are used in jewelry and electrical contacts.
+------
+Palladium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. Very small amounts are also produced by the fission of heavier nuclei.
+
+Palladium, like platinum below it, is a noble metal and is extremely inert. Formation of even fluorides and oxides requires high temperatures. It is even frequently found as a free metal in ores, though typically it occurs in combination with other noble metals such as gold. It has very low toxicity in bulk and has no known biological role. Even its compounds have low toxicity.
+
+Most palladium is used in catalysts for various reactions such as hydrogenation and dehydrogenation, with smaller amounts used in capacitors and the purification of molecular hydrogen.
+------
+Silver (Latin: Argentum) is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Silver is the second member of the so-called coinage metals, which also includes copper, gold, and roentgenium. Copper, silver and gold were most likely the first elements discovered by humans. Silver has historically been extremely valuable due to its rarity and brilliant shine and its use in jewelry and decorations predates the invention of writing.
+
+Silver is one of the most unreactive metals with oxygen, and will not even oxidize when heated to 1000K. Typical of other elements that do not react with oxygen, it is instead mostly found in ores alongside sulfur. Silver has the highest thermal and electrical conductivity of any known metal, though some unusual elemental allotropes such as graphene and helium-4 are superior. Although silver is relatively unreactive, its compounds are moderately toxic in concentration, and extremely toxic to prokaryotes. Silver is sometimes used as an antiseptic material for this reason.
+
+The majority of silver is used in the production of coins, silverware, antibacterial medical tools, and electronics. Smaller amounts are used in brazing, catalysts, and in photographic film.
+------
+Cadmium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Cadmium, along with the other group 12 metals zinc and mercury, are not considered transition metals by the IUPAC because their d subshells are full. It is, however, a d-block element. Like zinc above it, cadmium slowly burns in air to form a protective oxide layer. Cadmium is one of the most toxic nonradioactive elements, and cadmium poisoning typically leads to the failure of several organ systems due to its mimicry of zinc. A small number of organisms are capable of using cadmium instead of zinc in their enzymes.
+
+Most cadmium is used in the production of nickel-cadmium batteries, with smaller amounts used in electroplating and as a neutron absorber in nuclear reactor control rods.
+------
+Indium is an odd--numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Like aluminium and gallium above it, indium reacts only slightly with oxygen at low temperatures, forming a protective oxide layer. Indium is almost completely inert in water. Although some compounds of indium are known, especially indium minerals, concentrated indium is rare in nature, with most indium being extracted as a byproduct of sulfur and zinc production. Indium has no known biological role and its salts, like aluminium, are toxic.
+
+Most indium is used in the production of LCDs and other displays, though semiconductor and alloy production with indium is also an important commercial use. Many of these alloys have low melting points and can be used in temperature sensing applications as a replacement for the toxic mercury. Indium is also used alongside cadmium as a neutron moderator in nuclear reactor control rods.
+------
+Tin (Latin: Stannum) is an even-numbered element produced in the s-process in giant stars and merging neutron stars. Tin has ten stable isotopes, the most of any element. Some of these isotopes are too proton-rich to be produced in the s process or neutron star mergers; their origin is poorly understood. Its proton number, 50, is a magic number, corresponding to a full proton shell. Tin has been known since antiquity, where its use in bronze marks the start of the bronze age.
+
+Tin does not react with oxygen at low temperatures, forming only a thin oxide layer. When cooled below 286K, metallic tin transforms into a nonmetallic allotrope, resulting in catastrophic disintegration typically known as tin pest. Small amounts of impurities in most commercial tin prevent this phenomenon from occurring in most applications. Metallic tin has low toxicity, but like many other intermediate-weight metals, tin compounds can be extremely toxic. Tin has no known biological role.
+
+About two thirds of tin is used in the production of solder, alloys, and protective metal coatings. Significant amounts are also used in the production of catalysts and organotin compounds, which are mostly used in the production of organic polymers and biocides.
+------
+Antimony (Latin: Stibium) is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. It was one of the last elements discovered before the middle ages, isolated by Arabian alchemist Jabir ibn Hayyan alongside Arsenic around 800.
+
+Antimony reacts with neither oxygen nor acids easily at lower temperatures, and is usually found in minerals alongside sulfur and smaller amounts of oxygen. It has no known biological role and is generally assumed to be less toxic than arsenic, though high concentrations of its compounds can be toxic.
+
+Most antimony is used in lead and tin alloys, with the rest almost entirely used in the production of organic polymers, removal of bubbles in glass, and in pigments.
+------
+Tellurium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. It has eight isotopes that are either stable or have half lives greatly exceeding the age of the universe. Te-128 has the longest measured half life of any radioactive nuclide, at approximately 2.2e24 years. Because the s proces and merging neutron stars favor heavier isotopes, the heaviest of these are most common, and natural tellurium has a slightly larger standard atomic weight than the next element iodine, an oddity tellurium shares with argon.
+
+Tellurium has low reactivity with oxygen, but reacts very strongly with hydrogen and water. Tellurium hydride is a gas at STP and a significant portion of planetary tellurium on lower and medium-mass planets is permanently lost into space in this form. Natural tellurium occurs in minerals alongside gold, but most tellurium is produced as byproduct of copper and lead production. Tellurium has no known biological role, but some organisms can replace sulfur and selenium with it with varying effectiveness. Tellurium and its compounds are mildly toxic to most organisms.
+
+Most tellurium is used industrially in iron, copper, and lead alloys, both for increasing ductility and for reducing corrosion in the presence of acids. As a semiconductor, tellurium is also used in solar panels and other optical machinery.
+------
+Iodine is an odd-numbered element produced mostly by merging neutron stars. Only one isotope, I-127, is stable. I-131 with a half life of about 8 days is a common fission product and is one of the main radiation hazards from nuclear fallout. I-131 is typically less of a concern in spent nuclear fuel due to its short half life.
+
+As the heaviest stable halogen, iodine forms some of the weakest halogen bonds and is one of the least reactive of the halogens, but is still very reactive. It is the heaviest element that plays a biological role in the majority of organisms, and is mostly used in hormones and as an antioxidant.
+
+Iodine has a wide variety of uses even outside its biological role. Iodine is used in disinfectants, iodine supplements, catalysts, and reagents. Iodine can be used to refine certain metals with low reactivity to oxygen, such as titanium and zirconium.
+------
+Xenon is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. Xenon has 8 stable isotopes, with the unstable Xe-135 playing an important role in nuclear power. Xe-135 is the most potent neutron absorber known, and its production in the fission of uranium leads to a reduction of power levels that may be difficult to control or monitor. Overcompensating for the effects of Xe-135 on nuclear power production led to the Chernobyl disaster.
+
+Xenon is the heaviest and rarest noble gas with stable isotopes, and despite being a noble gas shows a small amount of reactivity. Xenon compounds were the first noble gas compounds discovered, and slight reactions with elements such as oxygen are thought to be responsible for the rarity of free xenon in Earth's atmosphere. One such compound, Xenon hexafluoride, is stable at temperatures of over 400K. Like all noble gases, pure xenon has little to no toxicity and no known biological role. Xenon compounds are often extremely toxic due to their reactivity and tendency to decompose.
+
+Most xenon is used in discharge lamps and lasers, with smaller markets using xenon as an anesthetic gaining ground. Xenon is not typically used as an inert atmosphere because of its scarcity and high cost, combined with the availability of cheaper inert atmospheres such as nitrogen or argon.
+------
+Caesium or cesium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Cs-133 is the only stable isotope, but Cs-137 is significant in nuclear power because of its long half life and chemical reactivity. Cs-137 is the main radiation hazard from nuclear fallout after a few years, and is currently the main radiation hazard in the area around the former Chernobyl power plant.
+
+Caesium is the most reactive alkali metal, and is also the softest and has the lowest melting and boiling points. The only metal with a lower melting or boiling point is mercury, which has both. Pure caesium will explode on contact with oxygen, water, or any other (even mild) oxidizers at low temperatures, and pure caesium compounds find few applications industrially. Caesium has no known biological role and its compounds have low toxicity, mostly due to its chemical similarity to potassium.
+
+Most caesium is used in industrial drill fluids, with smaller amounts used in atomic clocks, centrifuges, and in salts.
+------
+Barium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Barium is the most reactive alkaline earth metal, and rapidly forms a black oxide layer upon exposure to air. It is chemically similar to strontium and calcium above it, but formation of its compounds release a lot of energy. Due to its similarity to calcium and high reactivity, barium and water-soluble barium compounds are toxic, poisoning many of the calcium and potassium-dependent reactions occurring inside cells, causing the failure of metabolic and nervous processes.
+
+Most barium is used in drilling fluids and as a coating to remove oxygen from vacuumed chambers. Smaller amounts are used in solders and alloys.
+------
+Lanthanum is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Lanthanum is the namesake of the lanthanides, 14 elements following it in the table which have partially filled f subshells. Lanthanum is not typically considered to be part of the lanthanides. Lanthanum tarnishes similarly to iron, eventually being reduced to oxides and carbonates of lanthanum. Lanthanum has moderate toxicity, but one species of bacteria is known to use it in enzymes, making it the second-heaviest element discovered to play a biological role in any organisms (after tantalum).
+
+Lanthanum is comparatively rare and is mostly used in small amounts in alloys, glasses, and hydrogen sponges. It is one of the main compounds of mischmetal, along with a combination of iron and magnesium with mixed lanthanides, which is widely used in lighter flints.
+------
+Cerium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Cerium is the first element of the lanthanides and the most abundant of them. Like lanthanum, it rusts in a manner similar to iron, eventually converting to an oxide dust. Cerium has no known biological role, but subtly affects many metabolic processes and accumulates in bones, leading to poisoning in high concentrations.
+
+Most pure cerium or cerium oxides are used in polishing agents, catalytic converters, and oxidizing agents. Large amounts are also used in mixed-lanthanide form in mischmetal. Cerium oxides can be added to pigments to reduce their tendency to decay with exposure to light.
+------
+Praseodymium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Like lanthanum and cerium before it, praseodymium tarnishes on exposure to oxygen, slowly disintegrating into proseodymium oxide dust. Praseodymium has no known biological role, with high concentrations of praseodymium typically causing only minor metabolic impairments.
+
+Praseodymium is primarily used in alloys and in the creation of high-power magnets alongside neodymium. Smaller amounts are used to dye ceramics and welder's goggles, and like the rest of the lanthanides some praseodymium is used in the production of mischmetal.
+------
+Neodymium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Like the other lanthanides before it, neodymium completely oxidizes in air, tarnishing and slowly disintegrating to neodymium oxide. It also reacts readily with water. It forms a variety of compounds but none are as economically important as neodymium metal and alloys. Neodymium has no known biological role and is of mild toxicity. Its mechanism of toxicity is poorly understood.
+
+Neodymium is mostly used in the production of high-strength magnets, which are used primarily in electric motors, audio equipment, and computer hard drives. Smaller amounts are used as gain media in lasers, dye in glasses, and in mischmetal.
+------
+Promethium is an odd-numbered element with no stable isotopes. It is one of only two elements before lead having no stable isotopes, the other being technetium. The most stable isotope of promethium, Pm-145, has a half life of 17.7 years, much less than technetium's most stable Tc-97 at 4.2e6 years. It was the last element lighter than lead to be discovered, and was first synthesized by Oak Ridge National Laboratory in 1945, later than the discovery of 10 radioactive isotopes heavier than bismuth. With this incredibly short half life, most promethium on Earth occurs in trace amounts as fission products in uranium ores or alpha decay products in europium, with industrial quantities being produced from uranium.
+
+Promethium's chemical properties are poorly known due to the short half life of all isotopes, though it is assumed to show similar properties to the nearby lanthanides, such as the formation of a destructive oxide layer and slow corrosion in water. Promethium has no biological role, and its isotopes are so radioactive that any biological toxicity arises almost exclusively from the radiation hazard.
+
+Due to the short half life of isotopes, promethium is not used an industrial scale. Small amounts are synthesized for research purposes and in luminous paint.
+------
+Samarium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. Samarium was the first element to be named after a person, though indirectly: Samarium was named after the samarskite minerals it was extracted from, which were in turn named after Vasili Samarsky-Bykhovets.
+
+Like the other lanthanides, samarium oxidizes destructively, eventually disintegrating into samarium oxide powder. Samarium compounds are not typically used in commercial applications; instead, the metal is typically used in alloys or as a dopant. Samarium has no known biological role and is relatively nontoxic even in soluble compound form.
+
+Samarium is used primarily in the production of strong magnets that maintain their strength at low temperatures and in catalysts. Smaller amounts are used in dying glasses, in mischmetal, and as neutron moderators in nuclear reactor control rods.
+------
+Europium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Europium is the most chemically reactive lanthanide. Small samples will fully disintegrate into oxides within a few days, and it is about as reactive with water as metallic calcium. Europium is relatively nontoxic for a heavy metal, but the pure form is a fire hazard due to its rapid reaction with oxygen and water. Europium has no known biological role.
+
+Europium is difficult to separate from the other lanthanides and has few commercial applications. Most europium is used in the doping of laser glasses and in the production of CRT phosphors.
+------
+Gadolinium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Like the other lanthanides, gadolinium tarnishes when exposed to oxygen or water, disintegrating to oxides and hydroxides. Gadolinium ions mimic calcium sufficiently that free gadolinium is highly toxic. Gadolinium has no known biological role.
+
+Gadolinium is mostly used in the production of phosphors, optical components, imitation garnet, and dopants.
+------
+Terbium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. It is one of four elements named after the Ytterby mine in Sweden.
+
+Although terbium tarnishes on contact with air, eventually disintegrating into its oxide, it does so much more slowly than the earlier lanthanides. It reacts with water as well, forming a hydroxide. Terbium has no known biological role and its compounds are of relatively low toxicity for a heavy metal. Its toxicity has not been well investigated, however.
+
+Most terbium is used in the production of green CRT phosphors, with smaller amounts used as a dopant in certain crystals, such as calcium fluoride and calcium tungstate.
+------
+Dysprosium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Dysprosium tarnishes slowly in contact with oxygen, though more slowly than most of the earlier lanthanides. It also reacts with water to form hydroxides and hydrogen gas. Many compounds are known, but are not of commercial importance. Dysprosium has no known biological role, and its compounds are mildly toxic.
+
+Small amounts of dysprosium are used in magnets, nuclear control rods, and as dopants in laser materials. 
+------
+Holmium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Like the two lanthanides before it, holmium tarnishes only slowly at lower temperatures but reacts much more quickly with water, forming hydrides. Many of its comopunds are known but they play little economic role. Holmium has no known biological role and both the metal and salts are moderately toxic, though the mechanism of toxicity is poorly understood.
+
+Most holmium is used in artificial magnetic fields, synthetic garnet, and for the coloration of glass and synthetic crystals.
+------
+Erbium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. It is one of four elements named after the Ytterby mine in Sweden.
+
+Like the rest of the late lanthanides, erbium tarnishes only slowly in air but reacts more quickly with water to form a hydroxide. Some compounds are known, but none are economically important. Erbium has no known biological role, and both the metal and its salts are slightly toxic.
+
+Most erbium is used in alloys, nuclear control rods, optical fibers, and glass and synthetic crystal coloring. Some erbium is also used in photographic filters to stop infrared light from reaching the lens.
+------
+Thulium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. It is one of the rarest elements with stable isotopes; only lutetium and tantalum are thought to be rarer.
+
+Thulium tarnishes slowly on contact with oxygen and slowly forms hydroxides when exposed to water. Many compounds are known but thulium is poorly characterized due to its rarity and difficulty of separation from other lanthanides. Thulium has no known biological role and both the metal and its soluble salts are mildly toxic.
+
+Most thulium is used in laser gain mediums and superconductors. The unstable Tm-170 is often used as an x-ray source.
+------
+Ytterbium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. It is one of four elements named after the Ytterby mine in Sweden.
+
+Like other late lanthanides, ytterbium tarnishes slowly on contact with oxygen and slowly reacts with water to produce hydroxides. Several compounds are known, but they are poorly characterized due to the rarity of the metal. Ytterbium has no known biological role. Though the immediately preceding lanthanides have low toxicity, ytterbium's toxicity is poorly known and in general its compounds are assumed to be toxic.
+
+Most ytterbium is used in steel alloys, doping laser media, and in high-precision atomic clocks. The unstable Yb-169 is commonly used as an x-ray source.
+------
+Lutetium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Lutetium is one of the rarest elements with stable isotopes; only Tantalum is thought to be rarer, though the radioactive but primordial uranium is less common as well.
+
+Despite being considered the traditional last member of the lanthanides, lutetium's f shell is full and completely inert. Like the other late lanthanides, lutetium tarnishes slowly on exposure to oxygen. Due to its extreme rarity and difficulty of separation, lutetium has few commercial uses both its compounds and biological role are poorly characterized. Lutetium has no known biological role.
+
+Small amounts of lutetium are used as catalysts, in the doping of garnets, and in laser media. Lutetium tantalate is the densest known white material stable against both chemical reactions and radioactivity, and is thus used in x-ray phosphors.
+------
+Hafnium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. It was the last element with stable isotopes to be discovered, and was first isolated in 1923.
+
+Hafnium is usually considered the first transition metal after the lanthanides, and shows several properties of the transition metals. Unlike the lanthanides, but like most transition metals above it, hafnium slowly oxidizes with the formation of a protective oxide layer. Hafnium and zirconium show nearly identical compounds and chemical reactivity, and the two cannot be separated by chemical means. The metal shows low toxicity, but the toxicity of its compounds is poorly known. Hafnium has no known biological role.
+
+Hafnium is typically used in the production of heavy and strong alloys, the capture of gas in vacuum chambers, and in control rods in nuclear reactors.
+------
+Tantalum is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Although only Ta-181 is stable, Ta-180m has a half life so long that is has never been observed to decay. Ta-180m is the only primordial nuclear isomer, and is the rarest isotope of any that have not been observed to be radioactive. Tantalum is itself estimated to be the rarest element of any element that has stable isotopes.
+
+Tantalum is very chemically stable, and resists both oxidation and dissolution in strong acids. Some compounds are known, but few have economic importance. Tantalum has no known biological role, but the metal has extremely low toxicity, often being used in implants.
+
+Most tantalum is used in the production of electrical components and alloys that must resist high temperatures, due to tantalum's extremely high melting point. Tantalum is also used in some ammunitions due to its high density.
+------
+Tungsten (name in many European languages: Wolfram) is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Tungsten has several remarkable chemical and physical properties. It has the highest melting and boiling point of any element, the seventh-highest density, harder than many steels, and has the highest tensile strength. It is also incredibly resistant to oxidation and reaction with acids or bases. Tungsten is of low toxicity to most organisms but can interfere with some metabolic functions as a heavy metal. It plays a vital role in the metabolism of some prokaryotes, and is the heaviest element known to be used by any organisms in a biological function.
+
+Despite its rarity, tungsten is highly valued due to its exceptional physical properties. Approximately half of tungsten is used in the production of tungsten carbide and similar compounds, with most of the remainder being used in alloys and ammunitions. Small amounts are used in lubricant and catalyst compounds.
+------
+Rhenium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. It was the second-last element with stable isotopes to be discovered, and was discovered in 1908.
+
+Like tungsten before it, rhenium has exceptional hardness, chemical inertness, and extremely high melting and boiling points. Very little is known about its toxicity due the rarity of the element and the small amounts present in commercial applications.
+
+Rhenium is mostly used in high-temperature superalloys, with a smaller amount used in catalysts.
+------
+Osmium is an even-numbered element produced in the s-process in giant stars and by merging neutron stars.
+
+Osmium is the densest element with stable isotopes, and has a density of about 22.6 g/cm^3. Many compounds are known but few have commercial importance. Osmium is mostly nontoxic but its tetroxide is a potent oxidizer and is highly toxic.
+
+Osmium is mostly used in high-density and high-hardness alloys, which can be found in the tips of fountain pens and electrical contacts. The tetroxides are used as oxidation agents in organic chemistry and as dyes in tissue samples.
+------
+Iridium is an odd-numbered element produced mostly by merging neutron stars.
+
+Iridium shows similar properties to the elements tungsten through rhenium, including a high melting point and high tensile strength. Iridium is also extremely dense and resists tarnishing at temperatures up to 1900K. Little is known about the toxicity of iridium because of its rarity and typical low concentrations in alloys, and because most of its compounds are insoluble, even the compounds are relatively safe.
+
+Most iridium is used in the production of high-strength high-melting-point corrosion-resistant alloys, alongside osmium. These find applications in spark plugs, and crystal-growing crucibles. Iridium is also used as a catalyst, and until 1960 a bar of mixed iridium and platinum was used to define the meter.
+------
+Platinum is an even-numbered element mostly produced by merging neutron stars. It was the third element whose year of discovery was recorded.
+
+Like iridium, platinum only reacts with oxygen at high temperatures, and reacts only with the strongest acids. Its compounds are relatively well known but few have commercial importance. Platinum has relatively low toxicity for a heavy metal.
+
+Most platinum is used in the production of catalysts and in jewelry, with smaller amounts used in petroleum refining and heavy metal alloys.
+------
+Gold (Latin: Aurum) is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. Gold is one of the few metals that is brightly colored, and in the case of gold this is due to relativistic effects of its outer electrons. Synthesis of gold was one of the primary goals of medieval alchemy, and although nucleosynthesis of gold using modern technology is feasible, it is far too expensive to be used commercially. Gold has historically occupied a central role in human culture, being considered one of the most precious metals for its brilliant color, rarity, and resistance to corrosion. Gold is also suspected to be one of the first three elements discovered by humans, alongside copper and silver.
+
+Gold is a noble metal and forms few stable compounds, mostly with the halogens and other metals. Unusual for a metal, gold will not react with oxygen at any temperature, not even forming an oxide layer. It also will not react with sulfur, and reaction with fluorine requires high temperatures. Gold is so non-reactive that most organisms can tolerate high concentrations, though soluble compounds such as gold chloride are toxic.
+
+Most gold is used in the production of jewelry or hoarded as an investible currency. A small amount is used in special circuit equipment in environments required to resist corrosion that makes the otherwise superior silver unsuitable.
+------
+Mercury (Latin: Hydrargyrum) is an even-numbered element produced in the s-process in giant stars and by merging neutron stars. It has been known since antiquity, but until the medieval period was mostly valued as a precious metal due to its unusual liquid nature.
+
+Mercury is only slightly more reactive than gold, and is reluctant to react with anything more than strong acids or oxygen at high-temperatures. It does, however, readily react with sulfur, and is normally found in combination with it. Despite this relative nonreactivity, mercury is one of the most toxic known elements, mostly due to its inhibition of selenium-based enzymes, resulting in oxidative stress and death of major cell tissues.
+
+Most mercury is used in the extraction of pure sodium and chlorine. Use in amalgams, discharge lamps, and specialized thermometers are also commercially important. Historically, mercury was used in the production of a wider variety of metals, such as silver and gold, and was used in a wide variety of medicines and most thermometers, but most applications have gradually been phased out due to concerns about mercury's toxicity.
+------
+Thallium is an odd-numbered element produced in the s-process in giant stars and by merging neutron stars. It is the second-to-last element with stable isotopes.
+
+Like mercury before it and lead after it, thallium is relatively inert, only reacting with oxygen at high temperatures and mostly only forming compounds with oxygen and the halogens. Due to relativistic effects, thallium typically behaves as if it has a single valence electron, and its chemistry resembles that of the alkali metals. This results in thallium being extremely toxic - upon entering organisms, it irreversibly damages enzymes and metabolic pathways that normally use sodium or potassium. Because of this, thallium was previously used as a rat poison and insecticide, but these uses have been mostly discontinued due to the development of alternatives less toxic to humans.
+
+Thallium is mostly used in infrared optics materials, as well as specialty glasses. Smaller amounts are used in specialty thermometers and discharge lamps.
+------
+Lead (Latin: Plumbum) is an even-numbered element produced in the s-process in giant stars and by merging neutron stars, though large amounts are also produced by the decay of heavier elements. Lead is the last element in the periodic table to have stable isotopes, although the next element bismuth has one isotope with such a long half life that it can be treated as stable, and both thorium and uranium have isotopes long enough to be considered primordial as well. Most isotopes heavier than lead eventually decay to lead through alpha and beta emission, so lead is particularly common in the universe - it is almost as common as Xenon or Barium, a row earlier in the table. Lead occupies this place in the table because of the combination of decreasing nuclear stability and the doubly-magic proton and neutron shells that occur at Pb-208. Lead has been known since anquity, and has historically been prized for its inertness, density, and hardness.
+
+Lead slowly reacts with water, forming a protective layer of varying composition. Due to its relative abundance so late in the table, lead compounds are both well characterized and have many commercial applications. It is one of the most toxic known metals, though less toxic than mercury or cadmium, due to its interference with sulfur-based enzymes and metabolism involving calcium. Due to this, many historical uses of lead have been slowly phased out in favor of safer alternatives.
+
+Lead has a variety of uses, mostly due to its abundance, density, and relative resistance to corrosion. The largest use is currently in the production of lead-acid batteries, where lead ions provide a reliable voltage source. Lead has been one of the major components of bullets since their invention. It has also been used in a wide variety of applications both pure and in alloys as weights, counterweights, cable covers, roofing material and sculptures. Lead also absorbs sound and radiation particularly well, and is used in sound barriers, radiation shielding, and musical instruments. Lead compounds are used in dyes, glass coloring, and semiconductors.
+------
+Bismuth is an odd-numbered element produced mostly by merging neutron stars. It is the last element to have any isotopes that are generally considered non-radioactive. Its most stable isotope has a half life of about 1.9e19 years, which is large enough that the radiation is nondetectable for most applications and the isotope can be found primordially.
+
+Bismuth is relatively stable against oxidation and reaction with water, forming only a thin oxide layer except at elevated temperatures. Many compounds of bismuth are known, and several are of commercial importance. Strangely for a heavy metal, bismuth is significantly less toxic than its lighter analogous elements arsenic and antimony.
+
+Most bismuth is used in the production of pharmaceuticals, mostly due to bismuth's antimicrobial properties even in low concentrations. Smaller amounts are used in alloys as a replacement for lead, where bismuth can often be substituted due to similar density, lower toxicity, and similar melting point to lead.
+------
+Polonium is an even-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but no isotope has a long enough life for polonium to occur primordially. Polonium is the first member of a trend of decreasing stability after bismuth, which reverses directly slightly between thorium and curium, but ultimately never reaches the stability of bismuth again. Polonium was the first radioactive element discovered with the intent of studying radioactive decay, and was first isolated from uranium by Pierre and Marie Curie in 1898.
+
+Polonium is relatively chemically inert, and will only interact with oxygen and water slowly. Several other polonium compounds are known, but polonium is poorly characterized compared to lead and bismuth due to the short half lives of the products. Its biological role as a chemical element is poorly studied because it invariable causes acute radiation poisoning.
+
+Polonium has only minor commercial application due to its radioactivity. It has historically been used in nuclear thermoelectric generators and for the measurement of materials thickness by measuring attenuation of the emitted alpha particles. Due to the short lifetime of the isotopes, even uses of polonium as a radioactive isotope are rare. Most polonium is used in neutron sources, where it stimulates beryllium to emit neutrons.
+------
+Astatine is an odd-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but astatine does not occur primordially. The most stable isotope, At-210 has a half life of 7.21 hours, and astatine is thought to be one of the rarest elements in the universe. A sample of uranium-238 in equilibrium with its decay products will contain about 5 astatine atoms for every gram of uranium, or a concentration of about 2e-21 with respect to the uranium.
+
+Despite the incredible instability of the isotopes, tens of nanograms of astatine can be produced in reactors through the collision of bismuth with alpha particles. This has allowed astatine compounds to be characterized, though the chemistry of macroscopic samples of astatine is still unknown. Astatine is so unstable that ingestion of even small amounts would lead to acute radiation sickness, though this is a rare occurrence due to the difficulty of synthesizing the element.
+
+Astatine is so unstable that it has no current applications outside of academia. At-211 has shown some potential in radiotherapy.
+------
+Radon is an even-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but radon does not occur primordially. The most stable isotope, Rn-222, has a half life of 3.82 days. It is much more abundant than astatine due to the mechanics of the decay chains, but is still not present in macroscopic quantities.
+
+Although radon is a noble gas, it displays the downward trend of increasing reactivity of the noble gases. Several radon compounds are predicted to be stable, although the short halflife of the nuclides makes study of the compounds difficult. Radon is the only element in the decay chains from uranium and thorium that is a gas at STP, so it leaks into the atmosphere wherever it is produced. Concentrations of radon in the air vary wildly based on distance to the source, but concentrations typically range between 1e-20 over oceans, to 1e-17 inside homes on land, to 1e-15 in areas with abnormally high concentrations of uranium in the soil. The level considered acceptable is usually around 1e-17, or about 100 Bq/m^3. As a highly radioactive element and as a noble gas, radon is a common source of radiation exposure in many homes.
+
+Radon currently has no industrial use, but in certain circumstances radon can be used to track the movement of dense air fronts and groundwater, due to the higher concentration of radon in these.
+------
+Francium is an odd-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but francium does not occur primordially. Its most stable isotope, Fr-223, has a half-life of 22 minutes. Every element past francium has an isotope with a half-life longer than this until approximately Meitnerium at element 109. Francium was the last element to be discovered in nature, and was discovered in the decay of Ac-227 by Marguerite Perey in 1939.
+
+Francium is so unstable that its chemical properties are almost entirely predicted. It is thought to have a slightly lower melting point than caesium, and to bond slightly more covalently, with the p electrons at the end of the previous period playing more of a role. Francium is for the most part too unstable for even its radiological toxicity to be studied.
+
+Francium is too unstable to have any commercial applications, and it is so unstable that it finds few uses even inside academia.
+------
+Radium is an even-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but radium does not occur primordially. Its most stable isotope, Ra-226, has a half-life of about 1600 years. Radium begins a temporary trend of increasing halflives in the early actinides, which peaks at thorium and continues several elements after it before elemental stability rapidly drops again.
+
+Radium's most stable isotopes are stable enough that radium can be chemically characterized, unlike astatine, radon, and francium. Radium shows considerable chemical similarity to barium and oxidizes rapidly, although the oxide is one of the more poorly understood compounds. Extraction of radium for the manufacture of glowing paints led to the first industrial-scale demand for uranium, and led to the search for, identification of, and later abundance of known uranium ore deposits. This application is no longer used, and radioactive glowing paints are now typically sold in the form of safer nuclides. Radium toxicity is similar to that of polonium, mostly leading to acute cell damage, DNA damage, and permanent organ damage.
+
+Very small amounts of radium are used today as a radiotherapy against cancer and for the calibration of radiography devices, as well as a trigger for neutron emission from beryllium. This latter application has mostly been replaced by the cheaper polonium.
+------
+Actinium is an odd-numbered elements with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but actinium does not occur primordially. Its most stable isotope, Ac-227, has a half-life of about 21.8 years.
+
+Actinium's chemistry is poorly known due to the lack of a long-lived isotope. Its chemistry is thought to be similar to that of lanthanum, including moderate reactivity with oxygen and the lack of f subshell electrons. The difficulty of synthesizing it means that chemical studies are typically done with the precautions necessary to avoid radiation exposure.
+
+Actinium isotopes are too short lived to have commercial applications, but actinium has minor applications in radiotherapy and in the tracking of vertical water movements in oceans.
+------
+Thorium is an even-numbered element with no stable isotopes, though one isotope is long-lived enough to be produced primordially, mostly through the mergers of neutron stars. The most stable isotope, Th-232, has a half life of about 1.4e10 years, slightly longer than the age of the universe. This isotope is stable enough that thorium is one of only two elements past bismuth that exists as a primordial element, along with uranium. Thorium was the second post-bismuth element to be discovered, after uranium.
+
+By the last decade of the 20th century, thorium had found uses in lamps, ceramics, crucibles, and catalysts. These applications continued to grow until the 1950s, after which growing concern about radiation hazards led to them being replaced with safer or more effective alternatives. Thorium is relatively nontoxic chemically as its compounds are relatively insoluble in water. Contact with small amounts of thorium are also considered generally safe from a radiological standpoint, as the most stable isotope has a relatively long half-life. Contact with larger amounts, such as in the manufacture of thorium compounds and processing of thorium, generally poses a radiation hazard.
+
+Most commercial applications of thorium are now limited to lamps, tungsten filament alloys, ceramics, and camera lenses. All of these applications are in the process of replacing the thorium with nonradioactive alternatives. Use of thorium as a fuel in nuclear reactors remains a significant use -- spent nuclear fuel from thorium reactors tends to be marginally safer than that from uranium reactors, but thorium reactor technology is less developed and there is currently no commercial extraction of thorium as a primary product.
+------
+Protactinium is an odd-numbered element with no stable isotopes. The most stable isotope, Pa-231, has a half life of about 33 thousand years. This is long enough for macroscopic quantities of protactinium to be isolated, but too short for commercial application.
+
+Protactinium shows similarities both to neighboring actinides and the lanthanides above it. It rapidly forms a dark oxide layer on exposure to air, which prevents further reaction with oxygen. Most of the known compounds are with the halogens, oxygen, and hydrogen. Like uranium, protactinium is reactive enough to be chemically toxic, gradually accumulating in the bones with sufficient exposure. Due to the high radioactivity of the isotopes, protactinium also poses a serious radiological hazard in exposure to any more than microscopic amounts.
+
+Although protactinium can be synthesized in macroscopic quantities, it has no commercial applications.
+------
+Uranium is an even-numbered element with no stable isotopes, though two isotopes are long-lived enough to be present as primordial nuclides, mostly created from the merger of neutron stars. These two isotopes are U-235 and U-238, and have half-lives of 7.04e8 and 4.5e9 years, respectively. Approximately 99.3% of uranium on earth is U-238. Uranium was the first radioactive element to be discovered, though at the time of its discovery in 1789 it was not known to be radioactive. It was also the first element discovered to be radioactive - Henri Becquerel discovered radioactivity using samples of uranium in 1896. Uranium and thorium are the only two elements beyond bismuth which occur as primordial elements on Earth. U-238 is the heaviest primordial nuclide.
+
+Uranium shows typical chemical behaviour of the actinides - it rapidly forms a dark oxide layer upon exposure to air, which prevents further oxidation, and reacts with water at higher temperatures. Its compounds are generally chemically nontoxic when nonsoluble, and toxic when soluble in water. Like protactinium, uranium tends to accumulate in bones, where it both chemically interferes with cell processes and causes DNA and other cell damage through radioactive decay.
+
+Before commercial and military use, uranium is typically enriched to a certain purity of U-235, which is the only one of the two isotopes that can sustain a nuclear reaction. Purity of roughly 3% is used in civilian power plants, with somewhat higher purities used in military plants. Older models of nuclear bombs use somewhere between 50 and 95% U-235, and the extraction of U-235 produces depleted uranium, a material with less than 0.3% U-235 that is typically used in high-density armor, ammunitions, and radiation shielding. Due to its usage in nuclear weapons, possession of uranium is highly regulated around the world.
+------
+Neptunium is an odd-numbered element with no stable isotopes, though small amounts occur naturally from the decay of certain uranium isotopes. Stars also produce small amounts of neptunium, but no isotope is long-lived enough to be primordial. The longest live isotope is Np-237, with a half-life of about 2.14 million years. Both neptunium and plutonium were discovered before promethium (element 61). Most neptunium on Earth is produced artificially, as industrial processes producing neptunium from uranium are many orders of magnitude more efficient than the natural processes producing minute amounts of neptunium.
+
+Neptunium is relatively reactive compared to its neighbors in the table. It rapidly tarnishes when exposed to oxygen. Neptunium has been predicted to have the largest liquid range of any element, from 912 K up to about 4447 K. Its biological role is poorly understood, but it appears to concentrate in bones temporarily before being eliminated from the body. It is a more potent radiological hazard than uranium due to its shorter half life.
+
+Although neptunium can be produced in macroscopic quantities and shows promise in nuclear fuel or weapons, almost all neptunium is either used in the production of plutonium or extracted from spent nuclear fuel and discarded as a waste product.
+------
+Plutonium is an even-numbered element with no stable isotopes, though small amounts occur naturally from the decay of certain uranium isotopes, and it occurred as a primordial nuclide earlier in the history of the solar system. Its most stable isotope, Pu-244, has a half life of about 81 million years. Both neptunium and plutonium were discovered before promethium (element 61). Pu-244 has a long enough half life to have commercial applications, though plutonium is highly regulated due to its suitability for nuclear weapons. The majority of plutonium on Earth is produced artificially, with industrial processes capable of producing many orders of magnitude more plutonium than that which occurs naturally in uranium ores. Concentration in natural uranium ores is typically on the order of a few parts per trillion. Pu-244's half life is long enough that it has been detected to have been present as a primordial nuclide in the early solar system, though modern attempts to identify remaining primordial Pu-244 have been inconclusive.
+
+Plutonium is slightly more chemically reactive than neptunium, and rapidly reacts with oxygen and water on exposure to either. Powdered or finely divided plutonium can spontaneously combust even after reaction with water. Plutonium is also one of the toxic heavy metals, generally accumulating in bones and impairing their function. Plutonium also poses a significant radiation hazard due to the relatively short half life of its isotopes, more so than uranium or neptunium.
+
+Pu-238 is commercially and scientifically used in the radioisotope thermoelectric generators, where its extreme heat of decay is used to generate power. Such reactors require minimal maintenance and shielding, and are frequently the power sources for interplanetary probes and rovers. Pu-239 is used both in nuclear weapons and, when recovered as a byproduct of uranium power production, in the powering of civilian nuclear power plants. Heavier isotopes have little commercial use and when present typically reduce the efficiency of power generation and efficacy of nuclear weapons.
+------
+Americium is an odd-numbered element with no stable isotopes, and although it is produced in small amounts by supernovae and merging neutron stars, its isotopes are too short lived to be primordial. Trace amounts of natural americium occur in concentrated uranium ores, but their presence even there is negligible. Americium's longest lived isotope, Am-243, has a half life of about 7370 years. The vast majority of americium on Earth is produced synthetically by controlled neutron bombardment of uranium, a process which occurs only very slowly, rarely, and inefficiently elsewhere outside of neutron stars and supernovae.
+
+Like the other actinides, americium rapidly reacts with oxygen and water, and readily dissolves in acids. Americium is a toxic heavy metal and accumulates in bones, impairing their function. However, americium is so radioactive that its chemical role in bones is typically negligible compared to its radioactive toxicity. Americium is so radioactive that macroscopic crystals of it rapidly lose their form due to radiation damage.
+
+Americium is used only in very small amounts, due to the difficulty of obtaining macroscopic quantities. Am-241 is used in smoke detectors, where its alpha emission results in a small electric current running through an air-filled chamber. Blockage of the emission by smoke or other particulates stops the current, triggering the alarm. Am-241 is also used alongside beryllium in neutron probes and Am-243 is commonly used in the production of heavier elements.
+------
+Curium is an even-numbered element with no stable isotopes. It is produced in small amounts by supernovae and merging neutron stars, but its isotopes are too short lived to be primordial. The most stable isotope, Cm-247, has a half life of about 15.6 million years, long enough to be isolated in macroscopic quantities. Trace amounts are produced in concentrated uranium ores in the right conditions, but the vast majority of curium on Earth is produced synthetically from uranium. Curium isotopes are so radioactive that macroscopic crystals quickly lose their shape due to radiation damage.
+
+Curium is much more reactive than the early actinides, and reacts both with oxygen and water rapidly to form oxides and hydroxides. Several compounds with halogens are known, but most compounds are poorly characterized due to the short halflife and radioactive instability of the curium. Like the other actinides, curium is a toxic heavy metal and will accumulate in bones if ingested. Curium is too radioactive to be of chemical toxic concern; the radiation is much more damaging than any chemical damage the curium does. The commonly produced isotopes Cm-242 and Cm-244 are so radioactive that they glow noticeably in the absence of an external light source.
+
+Curium has very little application, but small amounts are used in spectrometers utilizing alpha particles, as the commercially viable isotopes Cm-242 and Cm-244 are intense alpha emitters.
+------
+Berkelium is an odd-numbered element with no stable isotopes. It is produced in small amounts by supernovae and merging neutron stars, but its isotopes are too short lived to be primordial. The most stable isotope, Bk-247, has a half-life of about 1380 years, barely long enough to be isolated in macroscopic quantities, though no such amount has ever been synthesized at once. Berkelium is also present in trace amounts in concentrated uranium ores in very specific circumstances, but most berkelium on Earth is produced synthetically and decays quickly.
+
+Berkelium is the first actinide after plutonium to show the oxidation state +4, and most separation methods use this to extract microgram quantities of berkelium from the curium and americium sources used to produce it. It tarnishes rapidly on exposure to oxygen and water, like curium. Berkelium is a toxic heavy metal and accumulates in the bones, but unlike previous actinides, the commonly produced Bk-249 is much less radioactively toxic. However, exposure to Bk-249 still leads to acute radiation damage due to Bk-249's quick decay to much more dangerous radioactive elements.
+
+Berkelium is the lightest element past uranium with no commercial applications. Most of the several hundred milligrams ever produced have been used in chemical research and the synthesis of heavier elements.
+------
+Californium is an even-numbered element with no stable isotopes. Any production in stars is negligible due to the isotopes' short lifetime. Very small amounts have been detected in concentrated uranium ores in certain conditions, but even these circumstances are rare and lead to only trace amounts of californium. Most californium on Earth is synthesized from lighter elements. The most stable isotope, Cf-251, has a half-life of about 898 years, barely enough to be produced in macroscopic quantities.
+
+Californium slowly tarnishes when exposed to air or moisture, and although several compounds with chalcogens and halogens are known, they are poorly characterized. Californium is a toxic heavy metal that accumulates in bones upon exposure, but by far the main concern on exposure is its radioactivity.
+
+Californium is the heaviest element with commercial applications. Small amounts are used in the startup of some nuclear reactors, neutron sources, and in some more extreme cancer treatments. Small amounts are also used in the synthesis of heavier elements.
+------
+Einsteinium is an odd-numbered element with no stable isotopes. Any production in stars is negligible due to the isotopes' short lifetime, and production in natural uranium ores is negligible due to the precise conditions required to produce it. Nearly all Einsteinium on Earth is produced from synthesis from lighter elements. The most stable isotope, Es-252, has a half life of about 472 days. Es-253 is the heaviest nuclide that has been produced in macroscopic quantities, with larger synthesis runs typically producing up to a single milligram.
+
+So little Einsteinium has been produced that its chemical properties are poorly known. It is assumed to be similar to Berkelium and Californium, tarnishing upon exposure to air or water. Toxicology studies indicate that ingestion leads to accumulation in the bones like other heavy metals. This is an extreme radiation hazard, but the difficulties involved in its production makes accidental exposure very unlikely. The commonly produced isotope Es-253 decays so rapidly that the element glows visibly even when externally lit.
+
+Einsteinium is only used synthesis of heavier elements, experimental chemical studies and for the calibration of certain spectrometers.
+------
+Fermium is an even-numbered element with no stable isotopes. Natural production in any source is negligible because of the short half life of the isotopes, though fermium is the heaviest element that can be produced in the right conditions by successive neutron captures by uranium. Starting with fermium, almost no isotopes of any element decay by beta decay, instead almost exclusively decaying by alpha decay and spontaneous fission. The most stable isotope, Fm-257, has a half-life of about 101 days. Fermium has never been produced in macroscopic quantities, though it is the heaviest element to be produced in quantities large enough to have some of its bulk chemical properties studied.
+
+Due to difficulty of preparing fermium isotopes, its chemistry is poorly known. Some evidence suggests that it is more stable than the previous actinides against corrosion by water and oxygen. No tests have been run on toxicity, and accidental radiation exposure is unlikely due to the short half life of the isotopes and difficulty of production.
+
+Fermium has almost no use outside of the attempted synthesis of elements beyond oganesson.
+------
+Mendelevium is an odd-numbered synthetic element. Because no isotopes of fermium before it decay into mendelevium, mendelevium is the first element that does not occur even in trace amounts in concentrated uranium ores. Production in stars is negligible due to the precise conditions required for synthesis and the short half life of the isotopes. The most stable isotope, Md-258, has a half-life of about 52 days.
+
+Although fermium can be produced in the quantity of billions of atoms at any given time, mendelevium is much more difficult to produce, usually limited to production of several million atoms per hour. Mendelevium is so difficult to produce that only some atomic chemical properties have been measured. Accidental exposure is unlikely due to the microscopic quantities produced and the short life of the isotopes.
+
+Mendelevium has almost no use outside of the attempted synthesis of elements beyond oganesson.
+------
+Nobelium is an even-numbered synthetic element. Natural production is negligible due to the precise conditions required for the synthesis of the isotopes. The longest-lived isotope is No-259, with a half life of about 58 minutes.
+
+Nobelium's chemistry is poorly understood, but enough atomic properties have been observed for its grouping with the actinides to be confirmed.
+
+Nobelium finds little use outside of chemical studies and fringe attempts to produce elements beyond Oganesson, and even these are rare.
+------
+Lawrencium is an odd-numbered synthetic element, with negligible natural production. The longest-lived known isotope is Lr-266 with a half life of about 11 hours, but isotopes heavier than this one have not been studied and could have longer half lives.
+
+Lawrencium's chemistry is poorly characterized but it is known to prefer the +3 oxidation state and to have a single p electron in its valence shell instead of the d shell like its lighter analog lutetium. Its chemistry known well enough to confirm it to be a heavier analog of lutetium.
+
+Lawrencium and the elements past it have almost no academic use other than the characterization of its chemistry.
+------
+Rutherfordium is an even-numbered synthetic element with negligible natural production. Its most stable known isotope, Rf-267, has a half life of about 1.3 hours, but heavier isotopes may have longer half lives.
+
+Rutherfordium's chemistry is poorly known but it is confirmed to behave as expected like a transition metal, with a predicted +4 oxidation state, a full f subshell, and an incomplete d subshell.
+------
+Dubnium is an odd-numbered synthetic element. The longest-lived known isotope is Db-268 with a half life of about 30 hours, and it is theorized that longer-lived isotopes do not exist.
+
+Dubnium's chemical properties are poorly known. It is known to behave like a transition metal, but whether it behaves as a heavier member of group 5 remains to be seen.
+------
+Seaborgium is an even-numbered synthetic element. The longest-lived known isotope is Sg-269 with a half-life of about 3.1 minutes, but other undiscovered isotopes may have a longer half-life. Seaborgium is the first element named after a living person - when it was named after Glenn T. Seaborg in 1997, he was still alive.
+
+Seaborgium's chemistry is poorly understood, but it is known to behave like a transition metal.
+------
+Bohrium is an odd-numbered synthetic element. The longest-lived known isotope is Bh-270 with a half life of about 61 seconds. Bh-278 is unconfirmed but has been claimed to have a half life of about 11.5 minutes, and some undiscovered isotopes may have longer half lives.
+
+Bohrium's chemical properties are very poorly understood, but it is known to behave like a transition metal.
+------
+Hassium is an even-numbered synthetic element. The longest-lived known isotope is Hs-277 with a half life of about 30 seconds, but undiscovered heavier isotopes may have longer half lives.
+
+Hassium's chemistry is poorly understood, but it is known to behave like a transition metal.
+------
+Meitnerium is an odd-numbered synthetic element. The longest-lived known isotope is Mt-278 with a half-life of about 7.6 seconds, with Mt-282 unconfirmed but reportedly having a half-life of about 67 seconds. Other undiscovered isotopes may have longer half lives.
+
+Difficulty in synthesizing meitnerium and the instability of the isotopes mean that meitnerium's chemical properties are completely unknown empirically. It is predicted to behave like a transition metal. Meitnerium is the lightest element whose chemical properties have not been investigated empirically.
+------
+Darmstadtium is an even-numbered synthetic element. The longest-lived known isotope is Ds-281 with a half-life of about 10 seconds, though it is likely that unknown heavier isotopes have longer half lives.
+
+Like meitnerium, Darmstadtium's chemistry is completely unknown, but it is predicted to be a transition metal.
+------
+Roentgenium is an odd-numbered synthetic element. The longest-lived known isotope is Rg-282 with a half life of about 2.1 minutes, with the unconfirmed Rg-286 reportedly having a half life of about 11 minutes, and other undiscovered isotopes possibly having a longer half life.
+
+Roentgenium's chemistry is unknown, though it is predicted to behave like a transition metal.
+------
+Copernicium is an even-numbered synthetic element. The most stable known isotope is Cn-285 with a half life of about 29 seconds, but undiscovered isotopes may have much longer half lives. Copernicium isotopes are predicted to be a part of the superheavy element "island of stability", a region with isotope half-lives in the range of minutes to years.
+
+Copernicium is the heaviest element whose chemistry has been investigated, and investigations have shown it to be a heavier member of group 12, similar to mercury above it.
+------
+Nihonium is an odd-numbered synthetic element. The longest-lived known isotope is Nh-286 with a half life of about 8 seconds, though it is likely that undiscovered heavier isotopes have longer half-lives.
+
+Nihonium's chemistry is unknown. It is predicted to be a post-transition metal, but relativistic effects make its exact chemical properties difficult to predict.
+------
+Flerovium is an even-numbered synthetic element. The longest-lived known isotope is Fl-289 with a half-life of about 2.6 seconds, but the unconfirmed Fl-290 may have an isomer with a half life of about 19 seconds, and heavier isotopes may have larger half-lives. Flerovium isotopes are predicted to be a part of the superheavy element "island of stability", a region with isotope half-lives in the range of minutes to years.
+
+Flerovium's chemistry is unknown. It is predicted to be a post-transition metal, but relativistic effects make its exact chemical properties difficult to predict.
+------
+Moscovium is an odd-numbered synthetic element. The longest-lived known isotope is Mc-290 with a half life of about 0.8 seconds, though heavier undiscovered isotopes may have longer half-lives.
+
+Moscovium's chemistry is unknown. It is predicted to be a post-transition metal, but relativistic effects make its chemical properties difficult to predict.
+------
+Livermorium is an even-numbered synthetic element. The longest-lived known isotope is Lv-293 with a half life of about 60 milliseconds, though heavier isotopes may have longer half-lives.
+
+Livermorium's chemistry is unknown, and predictions of its chemistry are difficult due to the predictions of large relativistic effects on its electrons. It is predicted to be a post-transition metal.
+------
+Tennessine is an odd-numbered synthetic element. The longest-lived known isotope is Ts-294 with a half-life of about 50 milliseconds, though heavier isotopes may have longer half-lives. Only a few tens of atoms have ever been created.
+
+Tennessine's chemistry is unknown, and predictions are complicated due to expected relativistic effects. Tennessine is expected to be a metal, unlike previous halogens, and to show several unusual properties for a halogen related to this. It is, however, expected to have an electron configuration analogous to the previous halogen astatine.
+------
+Oganesson is an even-numbered synthetic element. The only known isotope is Og-294 with a half-life of about 0.7 milliseconds, though other isotopes may have longer half-lives. Oganesson is one of only two elements named after a living person.
+
+Oganesson's chemistry is unknown. It is predicted to show noble-gas like behavior, but due to relativistic effects it may be more reactive even than flerovium four elements before it. It is even predicted to be a solid at STP, and to form diatomic molecules with a release of energy.
+------
+Ununennium is an unsynthesized odd-numbered element. No isotopes have been confirmed, and attempts to synthesize the elements are ongoing. The element is also referred to as 119 or (119) in some literature, but ununennium is the official placeholder IUPAC name for this element. As of 2017, ununennium is the lowest numbered element to not have been synthesized.
+
+Ununennium's chemistry is completely unknown, but it is predicted to be an alkali metal with reactivity similar to potassium. It is predicted to be less reactive than caesium and francium due to relativistic effects.
+------
