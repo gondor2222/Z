@@ -1251,7 +1251,8 @@ public class Data : MonoBehaviour {
         paused = !paused;
         pauseMenu.SetActive(paused);
         pauseMenu.GetComponent<Canvas>().enabled = paused;
-        ZLabel.SetActive(paused && !GameObject.Find("TutorialCanvas").activeSelf);
+        GameObject tCanvas = GameObject.Find("TutorialCanvas");
+        ZLabel.SetActive(paused && (tCanvas == null || !GameObject.Find("TutorialCanvas").activeSelf));
         creditsPosition = -1;
         if (paused)
         {
