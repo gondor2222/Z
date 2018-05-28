@@ -32,6 +32,7 @@ public class Properties : MonoBehaviour {
     private static readonly int NAME_LAYER_1 = 1;
     private static readonly int ION_LAYER = 7;
     private static readonly float TEXT_OPACITY = 0.6f;
+    private static AudioClip combineClip;
 
     public void SetColorFunction(Del del)
     {
@@ -71,6 +72,7 @@ public class Properties : MonoBehaviour {
 
     void Awake()
     {
+        combineClip = Resources.Load("Audio/Sounds/combine") as AudioClip;
         textScale = 1;
         dataParent = GameObject.Find("Daemon").GetComponent<Data>();
         destroyed = false;
@@ -130,6 +132,7 @@ public class Properties : MonoBehaviour {
 
     public void SetProperties(int Z, int N, int E)
     {
+        
         this.Z = Z;
         this.N = N;
         this.E = E;
@@ -165,6 +168,13 @@ public class Properties : MonoBehaviour {
         text2.transform.position = text.transform.position + 0.35f * text.transform.right * text.GetComponent<TextMesh>().text.Length
                 + 0.8f*text.transform.up;
         text2.GetComponent<TextMesh>().text = (Z - E).ToString("+00;-00;+00");
+
+        if (!gameObject.name.Equals("Player"))
+        {
+            gameObject.name = text.GetComponent<TextMesh>().text;
+        }
+        
+        innerShell.name = text.GetComponent<TextMesh>().text + "(inner)";
 
 
         if (isPlayer)
@@ -245,10 +255,13 @@ public class Properties : MonoBehaviour {
             int newN = N + newP.N;
             int newE = E + newP.E;
 
+
             if (newP.E == -1 && E < 1)
             {
                 return;
             }
+
+            AudioSource.PlayClipAtPoint(combineClip, tr.position);
             SetProperties(newZ, newN, newE);
             rb.velocity = (rb.velocity * rb.mass + rb2.velocity * rb2.mass) / (rb.mass + rb2.mass);
             p2.destroyed = true;
@@ -262,6 +275,8 @@ public class Properties : MonoBehaviour {
             if ((newP.E == -1 && E < 1) || (E == -1 && newE < 1)) {
                 return;
             }
+
+            AudioSource.PlayClipAtPoint(combineClip, tr.position);
             SetProperties(newZ, newN, newE);
             rb.velocity = (rb.velocity * rb.mass + rb2.velocity * rb2.mass) / (rb.mass + rb2.mass);
             p2.destroyed = true;

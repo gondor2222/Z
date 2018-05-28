@@ -264,7 +264,7 @@ Zirconium forms a protective oxide layer when exposed to oxygen, but zirconium p
 
 Zirconium is mostly used in its dioxide and silicate forms as a refractory material, and is particularly suited for this purpose as it resists corrosion and chemical attack even at high temperatures. Smaller amounts of metallic zirconium are also alloyed with other metals for a similar effect, and used in industries such as nuclear power and aerospace.
 ------
-Niobium, also formerly known as columbium in North America, is an odd-numbered element mostly produced by the s process in giant stars. Niobium is produced in small amounts by the fission of heavy nuclei.
+Niobium, also formerly known as Columbium in North America, is an odd-numbered element mostly produced by the s process in giant stars. Niobium is produced in small amounts by the fission of heavy nuclei.
 
 Pure niobium slowly tarnishes when exposed to oxygen, forming a bright blue oxide layer. Like zirconium, niobium is relatively nonreactive, and will only react with oxygen and fluorine at lower temperatures. Niobium has a superconductivity point higher than any other known element, at 9.2K. Like zirconium, it has no known biological role and is mostly inert when brought into contact with biological tissues.
 
@@ -552,7 +552,7 @@ Radium's most stable isotopes are stable enough that radium can be chemically ch
 
 Very small amounts of radium are used today as a radiotherapy against cancer and for the calibration of radiography devices, as well as a trigger for neutron emission from beryllium. This latter application has mostly been replaced by the cheaper polonium.
 ------
-Actinium is an odd-numbered elements with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but actinium does not occur primordially. Its most stable isotope, Ac-227, has a half-life of about 21.8 years.
+Actinium is an odd-numbered element with no stable isotopes. Small amounts are produced in stars and from the decay of uranium and thorium, but actinium does not occur primordially. Its most stable isotope, Ac-227, has a half-life of about 21.8 years.
 
 Actinium's chemistry is poorly known due to the lack of a long-lived isotope. Its chemistry is thought to be similar to that of lanthanum, including moderate reactivity with oxygen and the lack of f subshell electrons. The difficulty of synthesizing it means that chemical studies are typically done with the precautions necessary to avoid radiation exposure.
 

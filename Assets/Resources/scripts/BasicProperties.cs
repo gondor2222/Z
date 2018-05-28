@@ -21,6 +21,7 @@ public class BasicProperties : MonoBehaviour {
         re.sortingOrder = 8;
         re.material = Resources.Load("materials/shells/ParticleMaterial", typeof(Material)) as Material;
 
+
     }
 
     void Start()
@@ -33,6 +34,9 @@ public class BasicProperties : MonoBehaviour {
         this.Z = Z;
         this.N = N;
         this.E = E;
+
+
+        gameObject.name = string.Format("(BASIC) {0}-{1}", Z, Z+N);
     }
 
     void Update()

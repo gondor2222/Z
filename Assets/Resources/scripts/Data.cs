@@ -72,14 +72,11 @@ public class Data : MonoBehaviour {
     private GameObject pauseMenu;
     private GameObject infoPanel;
     private GameObject synthesisTypePanel;
-    private Texture2D velocityIcon1;
-    private Texture2D velocityIcon2;
     private List<GameObject> mapParticles;
     private List<GoalArrow> tutorialArrows;
     private float progressPerFrame = 0.01f;
     private float timer;
     private int tutorialPhase = -1;
-    private int creditsStart = -1;
     private GameObject ZLabel;
     private static readonly float timerStart = 20;
     private int synthesisType;
@@ -101,6 +98,9 @@ public class Data : MonoBehaviour {
     int selectedMap;
     private bool paused;
     private SCENE scene;
+    private static AudioClip combineClip;
+    private static AudioClip decayClip;
+    private static AudioClip pipClip;
     private static readonly GUIStyle mapLabelStyle = new GUIStyle();
 
     public static readonly Vector3[] mapDirections = new Vector3[]
@@ -119,7 +119,7 @@ public class Data : MonoBehaviour {
     const int AVG_SPAWN_VELOCITY = 1;
     public const int START_P = 1;
     public const int START_N = 1;
-    public const int START_E = 2;
+    public const int START_E = 0;
 
     private static readonly Properties.Del[] colorFunctions = new Properties.Del[] {
         delegate(int Z, int N, int E) { //Z
@@ -236,7 +236,7 @@ public class Data : MonoBehaviour {
     void Awake()
     {
         ZLabel = GameObject.Find("ZLabel");
-        ZLabel.SetActive(false);
+        //ZLabel.SetActive(false);
         mapParticles = new List<GameObject>();
         tutorialArrows = new List<GoalArrow>();
         QualitySettings.antiAliasing = 4;
@@ -259,15 +259,17 @@ public class Data : MonoBehaviour {
         }
         forwardIndicator.SetActive(false);
         backwardIndicator.SetActive(false);
-        velocityIcon1 = new Texture2D(51, 51);
-        velocityIcon2 = new Texture2D(51, 51);
         for (int i = 0; i < maxParticles; i++)
         {
             mapParticles.Add(RandMapParticle());
+            mapParticles[i].SetActive(false);
         }
         mapLabelStyle.fontSize = 24;
         mapLabelStyle.normal.textColor = new Color(0.9f, 0.8f, 1, 1);
-    }
+        combineClip = Resources.Load("Audio/Sounds/combine") as AudioClip;
+        decayClip = Resources.Load("Audio/Sounds/decay") as AudioClip;
+        pipClip = Resources.Load("Audio/Sounds/pip") as AudioClip;
+}
 
 	void Start() {
         creditsPosition = -1;
@@ -442,19 +444,19 @@ public class Data : MonoBehaviour {
             int frame2 = (int)(GetComponent<Music>().GetPosition()*1000 + 1150) % 2400;
             if (frame < 100)
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(1, frame / 100.0f, frame / 100.0f, 1);
+                ZLabel.GetComponent<Text>().color = new Color(1, frame / 100.0f, frame / 100.0f, 0.5f);
             }
             else if (frame2 < 100)
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(frame2 / 100.0f, 1, frame2 / 100.0f, 1);
+                ZLabel.GetComponent<Text>().color = new Color(frame2 / 100.0f, 1, frame2 / 100.0f, 0.5f);
             }
             else
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1, 1);
+                ZLabel.GetComponent<Text>().color = new Color(1, 1, 1, 0.5f);
             }
             if (creditsPosition > 4500)
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(1, 1, 1, 1);
+                ZLabel.GetComponent<Text>().color = new Color(1, 1, 1, 0.5f);
                 StopCredits();
             }
         }
@@ -505,7 +507,7 @@ public class Data : MonoBehaviour {
                     BasicProperties p = current.GetComponent<BasicProperties>();
                     int p1 = p.Z;
                     int n1 = p.N;
-                    int e1 = p.E;
+                    //int e1 = p.E;
                     if (Constants.ShouldDecay(p1, n1, 1e6)) //decay
                     {
                         double[,] types = Constants.GetDecayTypes(p1, n1);
@@ -779,7 +781,6 @@ public class Data : MonoBehaviour {
             {
                 tutorialPhase++;
                 Vector3 t = player.transform.position;
-                Vector3 t2 = t - 0.5f * ca.transform.up;
                 switch (tutorialPhase)
                 {
                     case 1: //forward and backward
@@ -942,6 +943,7 @@ public class Data : MonoBehaviour {
 
     void DoDecay(List<GameObject> nuclei, GameObject selected, int type)
     {
+        
         Properties thisP = selected.GetComponent<Properties>();
         int thisZ = thisP.GetZ();
         int thisN = thisP.GetN();
@@ -953,6 +955,9 @@ public class Data : MonoBehaviour {
         Vector3 r3 = Vector3.RotateTowards(r1, -r1, -2 * Mathf.PI / 3, 1f);
         Vector3 r11 = Random.onUnitSphere;
         int thisA = thisZ + thisN;
+
+        AudioSource.PlayClipAtPoint(decayClip, pos);
+
         switch (type)
         {
             case 0: //B-
@@ -1253,6 +1258,7 @@ public class Data : MonoBehaviour {
         pauseMenu.GetComponent<Canvas>().enabled = paused;
         GameObject tCanvas = GameObject.Find("TutorialCanvas");
         ZLabel.SetActive(paused && (tCanvas == null || !GameObject.Find("TutorialCanvas").activeSelf));
+        Debug.Log("ZLable active: " + (paused && (tCanvas == null || !GameObject.Find("TutorialCanvas").activeSelf)));
         creditsPosition = -1;
         if (paused)
         {
@@ -1347,10 +1353,11 @@ public class Data : MonoBehaviour {
 
     public void EnterCredits()
     {
-        creditsStart = Time.frameCount;
         creditsPosition = 0;
         GetComponent<Music>().SwitchToCredits();
         creditsCanvas.SetActive(true);
+        ZLabel.transform.parent = creditsCanvas.transform;
+        ZLabel.transform.SetSiblingIndex(0);
         pauseMenu.GetComponent<Canvas>().enabled = false;
 
     }
@@ -1376,6 +1383,9 @@ public class Data : MonoBehaviour {
         GetComponent<Music>().StopCredits();
         creditsCanvas.SetActive(false);
         pauseMenu.GetComponent<Canvas>().enabled = true;
+
+        ZLabel.transform.parent = pauseMenu.transform;
+        ZLabel.transform.SetSiblingIndex(0);
         credits1.transform.position = credits1Start;
     }
 

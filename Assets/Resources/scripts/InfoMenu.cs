@@ -31,6 +31,7 @@ public class InfoMenu : MonoBehaviour {
     bool dragging;
     int textFrame;
     int selectedZ;
+    private static AudioClip pipClip;
     RectTransform tr;
     RectTransform shellTransform;
     RectTransform osTransform;
@@ -41,6 +42,7 @@ public class InfoMenu : MonoBehaviour {
         System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
         selectedZ = 0;
         dragging = false;
+        pipClip = Resources.Load("Audio/Sounds/pip") as AudioClip;
         dataParent = GameObject.Find("Daemon").GetComponent<Data>();
         electronIcon = Resources.Load("materials/Electron") as Texture2D;
         shellTransform = GameObject.Find("ShellDiagram").GetComponent<RectTransform>();
@@ -133,10 +135,15 @@ public class InfoMenu : MonoBehaviour {
         {
             return;
         }
-        if (textFrame <= fullDescription.Length)
+        if (textFrame <= fullDescription.Length && textFrame != fullDescription.Length)
         {
             description.text = fullDescription.Substring(0, textFrame);
             textFrame+=2;
+            if (textFrame % 4 == 2)
+            {
+                AudioSource.PlayClipAtPoint(pipClip, new Vector3(0, 0, 0), 0.2f);
+            }
+            
             if (textFrame > fullDescription.Length) {
                 textFrame = fullDescription.Length;
             }
@@ -271,25 +278,6 @@ public class InfoMenu : MonoBehaviour {
             }
             
         }
-        else if (E == 1)
-        {
-            toSetPicture = leptonSprites[0];
-            toSetCredit = "Photo Credit: Wikipedia (CC)";
-            toSetName = "Electron";
-            toSetAltName = "";
-            toSetSymbol = "e-";
-            identifier.text = "";
-            fullDescription = Constants.electronDescription;
-            selectedZ = 0;
-            shellText.text = "";
-            valenceText.text = "";
-            typeText.text = "Lepton";
-            bestIsotope.text = "stable";
-            radiusText.text = "Radius \n N/A";
-            abundanceText.text = "";
-            meltBoilText.text = "";
-            discoveryText.text = "Discovery year\n" + Constants.electronDiscoveryYear;
-        }
         else {
 
             toSetPicture = leptonSprites[1];
@@ -298,16 +286,35 @@ public class InfoMenu : MonoBehaviour {
             toSetAltName = "";
             toSetSymbol = "e+";
             identifier.text = "";
-            fullDescription = Constants.positronDescription;
+            
             selectedZ = 0;
             shellText.text = "";
+            ENText.text = "";
             valenceText.text = "";
-            typeText.text = "Antilepton";
+            
             bestIsotope.text = "stable";
             radiusText.text = "Radius \n N/A";
             abundanceText.text = "";
             meltBoilText.text = "";
-            discoveryText.text = "Discovery year\n" + Constants.positronDiscoveryYear;
+            
+            if (E == 1)
+            {
+                toSetPicture = leptonSprites[0];
+                toSetName = "Electron";
+                toSetSymbol = "e-";
+                fullDescription = Constants.electronDescription;
+                discoveryText.text = "Discovery year\n" + Constants.electronDiscoveryYear;
+                typeText.text = "Lepton";
+            }
+            else
+            {
+                toSetPicture = leptonSprites[1];
+                toSetName = "Positron";
+                toSetSymbol = "e+";
+                fullDescription = Constants.positronDescription;
+                discoveryText.text = "Discovery year\n" + Constants.positronDiscoveryYear;
+                typeText.text = "Antilepton";
+            }
         }
 
         elementPicture.sprite = toSetPicture;
