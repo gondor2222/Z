@@ -203,4 +203,28 @@ public class Music : MonoBehaviour {
     {
         GUI.Label(new Rect(10, Screen.height - 70, 500, 50), text, style);
     }
+
+    public float GetPosition()
+    {
+        if (mode == Mode.MAIN && mainMixer.player.isPlaying)
+        {
+            return mainMixer.player.time;
+        }
+        else if (mode == Mode.PAUSE && pauseMixer.player.isPlaying)
+        {
+            return pauseMixer.player.time;
+        }
+        else if (mode == Mode.MAP && mapMixer.player.isPlaying)
+        {
+            return mapMixer.player.time;
+        }
+        else if (mode == Mode.CREDITS && creditsMixer.player.isPlaying)
+        {
+            return creditsMixer.player.time;
+        }
+        else
+        {
+            return 0;
+        }
+    }
 }

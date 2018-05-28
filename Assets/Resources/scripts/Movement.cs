@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour {
     public readonly float rotationInertia = 0.1f;
     public readonly float moveSpeed = 10;
     public readonly float zoomSpeed = 10;
+    public readonly float startZoom = -1f;
     private float zoom;
     public int framesPerSecond = 10;
     public int numFrames = 16;
@@ -22,7 +23,7 @@ public class Movement : MonoBehaviour {
         tr = GetComponent<Transform>();
         ca = GetComponentInChildren<Camera>();
         re = GetComponent<Renderer>();
-        zoom = -8f;
+        zoom = startZoom;
     }
 
     void Update()

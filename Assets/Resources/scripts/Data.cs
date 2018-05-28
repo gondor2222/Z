@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Data : MonoBehaviour {
 
     private enum SCENE {MAIN, MAP};
-    protected enum Goal { LEFT, RIGHT, UP, DOWN, FORWARD, BACKWARD, PITCHUP, PITCHDOWN, YAWLEFT, YAWRIGHT, ROLLLEFT, ROLLRIGHT };
+    protected enum Goal { ZOOMIN, ZOOMOUT, LEFT, RIGHT, UP, DOWN, FORWARD, BACKWARD, PITCHUP, PITCHDOWN, YAWLEFT, YAWRIGHT, ROLLLEFT, ROLLRIGHT, COLLIDE, MAPINFO, PAUSEINFO};
+    public Font mapFont;
+
     protected class GoalArrow
     {
         public float progress;
@@ -15,9 +18,11 @@ public class Data : MonoBehaviour {
         private GameObject label;
         public Goal goal;
         private string[] labelTexts = new string[] {
-            "A to move left", "D to move right", "R to move up", "F to move down", "W to move forward", "S to move backward",
+            "Mouse wheel up or = to zoom in", "Mouse wheel down or - to zoom out", "A to move left", "D to move right", "R to move up", "F to move down", "W to move forward", "S to move backward",
             "Drag mouse up to rotate up", "Drag mouse down to rotate down", "Drag mouse left to rotate left", "Drag mouse right to rotate right",
-            "Q to roll left", "E to roll right"
+            "Q to roll left", "E to roll right", "You can fuse with other atoms by colliding with them at high speed",
+            "The map shows you where you are in the table of nuclides. \nYou can plan your fusions in advance to avoid low-stability areas in red and black.",
+            "Press escape to bring up the menu again and Space to capture a screenshot"
         };
         public GoalArrow(GameObject player, Goal goal, Vector3 position, Vector3 view, Vector3 up)
         {
@@ -55,6 +60,7 @@ public class Data : MonoBehaviour {
             arrow.GetComponent<MeshRenderer>().material.color = new Color(1 - progress, 1, 1 - progress, 0.5f);
         }
     }
+
     private static readonly float CREDITS_SCROLL_SPEED = 1.2f;
     private List<GameObject> nuclei;
     private List<GameObject> mapNuclei;
@@ -77,13 +83,43 @@ public class Data : MonoBehaviour {
     private GameObject ZLabel;
     private static readonly float timerStart = 20;
     private int synthesisType;
-    private static readonly float[] timerRates = {1, 1, 3, 5};
+    private static readonly float[] timerRates = { 1, 1, 3, 5 };
     private static readonly string[] synthesisTypes = {
         "PP / CNO", "Alpha Process", "S process", "R process"
     };
     private static readonly int maxParticles = 1500;
     private Vector3 credits1Start = new Vector3(0, Screen.height, 0);
     private float creditsPosition;
+
+    private Texture2D minimap;
+    private GUIStyle GUIstyle;
+    private Texture2D crosshair;
+    private Texture2D axis1;
+    private Texture2D axis2;
+    private Camera ca;
+    private Camera mapCamera;
+    int selectedMap;
+    private bool paused;
+    private SCENE scene;
+    private static readonly GUIStyle mapLabelStyle = new GUIStyle();
+
+    public static readonly Vector3[] mapDirections = new Vector3[]
+    {
+        new Vector3(0, 0, 1),
+        new Vector3(1, 0, 0),
+        new Vector3(0, 0, -1),
+        new Vector3(-1, 0, 0)
+    };
+    GameObject player;
+    const float MAP_DISTANCE = 5;
+    const float MAX_DISTANCE = 250;
+    const float SPAWN_DISTANCE = 0.8f * MAX_DISTANCE;
+    const float SPAWN_V_FACTOR = 25f;
+    const int MAX_PARTICLES = 1000;
+    const int AVG_SPAWN_VELOCITY = 1;
+    public const int START_P = 1;
+    public const int START_N = 1;
+    public const int START_E = 2;
 
     private static readonly Properties.Del[] colorFunctions = new Properties.Del[] {
         delegate(int Z, int N, int E) { //Z
@@ -196,33 +232,6 @@ public class Data : MonoBehaviour {
            return ret;
         }
     };
-    private Texture2D minimap;
-    private GUIStyle GUIstyle;
-    private Texture2D crosshair;
-    private Texture2D axis1;
-    private Texture2D axis2;
-    private Camera ca;
-    private Camera mapCamera;
-    int selectedMap;
-    private bool paused;
-    private SCENE scene;
-    public static readonly Vector3[] mapDirections = new Vector3[]
-    {
-        new Vector3(0, 0, 1),
-        new Vector3(1, 0, 0),
-        new Vector3(0, 0, -1),
-        new Vector3(-1, 0, 0)
-    };
-    GameObject player;
-    const float MAP_DISTANCE = 5;
-    const float MAX_DISTANCE = 250;
-    const float SPAWN_DISTANCE = 0.8f * MAX_DISTANCE;
-    const float SPAWN_V_FACTOR = 25f;
-    const int MAX_PARTICLES = 1000;
-    const int AVG_SPAWN_VELOCITY = 1;
-    public const int START_P = 98;
-    public const int START_N = 138;
-    public const int START_E = 96;
 
     void Awake()
     {
@@ -256,6 +265,8 @@ public class Data : MonoBehaviour {
         {
             mapParticles.Add(RandMapParticle());
         }
+        mapLabelStyle.fontSize = 24;
+        mapLabelStyle.normal.textColor = new Color(0.9f, 0.8f, 1, 1);
     }
 
 	void Start() {
@@ -394,10 +405,29 @@ public class Data : MonoBehaviour {
                 }
             }
             minimap.Apply();
-            GUI.DrawTexture(new Rect(0, 0, 310, 310), minimap);
+
+            Rect mapRect = new Rect(0, 0, 310, 310);
+
+            GUI.DrawTexture(mapRect, minimap);
             GUI.DrawTexture(new Rect(150, 150, 10, 10), crosshair);
             GUI.DrawTexture(new Rect(250, 280, 50, 20), axis1);
             GUI.DrawTexture(new Rect(0, 0, 20, 50), axis2);
+
+            string labelText = string.Format("You are {0}-{1}\nZ = {2}, N={3}\nHover over nuclides in the map for more information.", Constants.elementNames[Z], Z + N, Z, N);
+
+            GUI.Label(new Rect(0,310,200,100), labelText);
+            Vector2 m_pos = Input.mousePosition;
+            m_pos.y = Screen.height - m_pos.y;
+            if (mapRect.Contains(m_pos))
+            {
+                int targetZ = Z + (int)Mathf.Floor((m_pos.x - 150f) / 10f);
+                int targetN = N - (int)Mathf.Floor((m_pos.y - 150f) / 10f);
+                if (targetZ >= 0 && targetN >= 0)
+                {
+                    string labelText2 = string.Format("{0}\n{1}", Constants.MainLabelText(targetZ, targetN, 1), Constants.GetFormattedLife(targetZ, targetN));
+                    GUI.Label(new Rect(m_pos.x + 10, m_pos.y - 10, 100, 100), labelText2, mapLabelStyle);
+                }
+            }
         }
     }
 
@@ -408,15 +438,15 @@ public class Data : MonoBehaviour {
             creditsPosition += 0.61f;
             Vector3 transform1 = credits1.transform.position;
             credits1.transform.position = new Vector3(Screen.width/2, -2650 + creditsPosition * CREDITS_SCROLL_SPEED, transform1.z);
-            int frame = (Time.frameCount - creditsStart + 103) % 145;
-            int frame2 = (Time.frameCount - creditsStart + 31) % 145;
-            if (frame < 15)
+            int frame = (int)(GetComponent<Music>().GetPosition()*1000 + 2350) % 2400;
+            int frame2 = (int)(GetComponent<Music>().GetPosition()*1000 + 1150) % 2400;
+            if (frame < 100)
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(1, frame / 15.0f, frame / 15.0f, 1);
+                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(1, frame / 100.0f, frame / 100.0f, 1);
             }
-            else if (frame2 < 15)
+            else if (frame2 < 100)
             {
-                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(frame2 / 15.0f, 1, frame2 / 15.0f, 1);
+                ZLabel.GetComponent<MeshRenderer>().material.color = new Color(frame2 / 100.0f, 1, frame2 / 100.0f, 1);
             }
             else
             {
@@ -581,6 +611,26 @@ public class Data : MonoBehaviour {
                 GoalArrow arrow = tutorialArrows[i];
                 switch (arrow.goal)
                 {
+                    case Goal.ZOOMIN:
+                        if (Input.GetAxis("Zoom") > 0 || Input.GetAxis("Zoom2") > 0)
+                        {
+                            arrow.progress += 5f*progressPerFrame;
+                        }
+                        else
+                        {
+                            arrow.progress -= 0.1f*progressPerFrame;
+                        }
+                        break;
+                    case Goal.ZOOMOUT:
+                        if (Input.GetAxis("Zoom") < 0 || Input.GetAxis("Zoom2") < 0)
+                        {
+                            arrow.progress += 5f*progressPerFrame;
+                        }
+                        else
+                        {
+                            arrow.progress -= 0.1f*progressPerFrame;
+                        }
+                        break;
                     case Goal.UP:
                         if (Input.GetAxis("X2") > 0)
                         {
@@ -701,6 +751,15 @@ public class Data : MonoBehaviour {
                             arrow.progress -= progressPerFrame;
                         }
                         break;
+                    case Goal.COLLIDE:
+                        arrow.progress += 0.15f*progressPerFrame;
+                        break;
+                    case Goal.MAPINFO:
+                        arrow.progress += 0.1f*progressPerFrame;
+                        break;
+                    case Goal.PAUSEINFO:
+                        arrow.progress += 0.15f*progressPerFrame;
+                        break;
                     default:
                         Debug.Log("Unknown goal arrow case.");
                         break;
@@ -723,27 +782,40 @@ public class Data : MonoBehaviour {
                 Vector3 t2 = t - 0.5f * ca.transform.up;
                 switch (tutorialPhase)
                 {
-                    case 1: //up and down
+                    case 1: //forward and backward
+                        tutorialArrows.Add(new GoalArrow(player, Goal.FORWARD, t + 0.5f * ca.transform.forward, ca.transform.forward, ca.transform.right));
+                        tutorialArrows.Add(new GoalArrow(player, Goal.BACKWARD, t - 0.5f * ca.transform.forward, -ca.transform.forward, -ca.transform.right));
+                        break;
+                    case 2: //up and down
                         tutorialArrows.Add(new GoalArrow(player, Goal.UP, t + 0.5f * ca.transform.up, ca.transform.up, ca.transform.right));
                         tutorialArrows.Add(new GoalArrow(player, Goal.DOWN, t - 0.5f * ca.transform.up, -ca.transform.up, -ca.transform.right));
                         break;
-                    case 2: //left and right
+                    case 3: //left and right
                         tutorialArrows.Add(new GoalArrow(player, Goal.RIGHT, t + 0.5f * ca.transform.right, ca.transform.right, ca.transform.up));
                         tutorialArrows.Add(new GoalArrow(player, Goal.LEFT, t - 0.5f * ca.transform.right, -ca.transform.right, -ca.transform.up));
                         break;
-                    case 3: //pitch up and down
+                    case 4: //pitch up and down
                         tutorialArrows.Add(new GoalArrow(player, Goal.PITCHUP, t + 0.25f * ca.transform.forward - 0.25f * ca.transform.up, ca.transform.forward + ca.transform.up, ca.transform.up));
                         tutorialArrows.Add(new GoalArrow(player, Goal.PITCHDOWN, t + 0.5f * ca.transform.forward + 0.25f * ca.transform.up, ca.transform.forward - ca.transform.up, -ca.transform.up));
                         break;
-                    case 4: //yaw left and right
+                    case 5: //yaw left and right
                         tutorialArrows.Add(new GoalArrow(player, Goal.YAWLEFT, t + 0.25f * ca.transform.forward - 0.25f * ca.transform.right, -ca.transform.forward - ca.transform.right, ca.transform.up));
                         tutorialArrows.Add(new GoalArrow(player, Goal.YAWRIGHT, t + 0.25f * ca.transform.forward + 0.25f * ca.transform.right, -ca.transform.forward + ca.transform.right, -ca.transform.up));
                         break;
-                    case 5: //roll left and right
+                    case 6: //roll left and right
                         tutorialArrows.Add(new GoalArrow(player, Goal.ROLLLEFT, t + 0.25f * ca.transform.up - 0.25f * ca.transform.right, -ca.transform.up - ca.transform.right, ca.transform.up));
                         tutorialArrows.Add(new GoalArrow(player, Goal.ROLLRIGHT, t + 0.25f * ca.transform.up + 0.25f * ca.transform.right, -ca.transform.up + ca.transform.right, -ca.transform.up));
                         break;
-                    case 6: //tutorial done
+                    case 7:
+                        tutorialArrows.Add(new GoalArrow(player, Goal.COLLIDE, t - 0.5f * ca.transform.up, ca.transform.forward, ca.transform.up));
+                        break;
+                    case 8:
+                        tutorialArrows.Add(new GoalArrow(player, Goal.MAPINFO, t + 0.5f * ca.transform.up - 0.5f * ca.transform.right, -ca.transform.right, ca.transform.up));
+                        break;
+                    case 9:
+                        tutorialArrows.Add(new GoalArrow(player, Goal.PAUSEINFO, t + 0.5f * ca.transform.up, ca.transform.up , ca.transform.right));
+                        break;
+                    case 10: //tutorial done
                         tutorialPhase = -1;
                         break;
                     default:
@@ -790,11 +862,12 @@ public class Data : MonoBehaviour {
 
                         DoDecay(nuclei, nuclei[i], (int)types[index - 1, 0]);
                     }
-                    else if (thisP.GetE() > Z1 && Constants.electronAffinities[Z1] < 0 && (Z1 + N1) > 0) //check for electron emission
+                    else if (thisP.GetE() > Z1 && (Z1 + N1) > 0) //check for electron emission
                     {
-                        if (Random.value > Mathf.Exp((float)Constants.electronAffinities[Z1] / 1500))
+                        //always decay if anion is 2- or more, else simulate half life if affinity is negative
+                        if (thisP.GetE() > Z1 + 1 || (Constants.electronAffinities[Z1] < 0 && Random.value > Mathf.Exp((float)Constants.electronAffinities[Z1] / 1500)))
                         {
-                            DoDecay(nuclei, nuclei[i], 22);
+                                DoDecay(nuclei, nuclei[i], 22);
                         }
                     }
                 }
@@ -1347,8 +1420,8 @@ public class Data : MonoBehaviour {
         }
         Vector3 t = player.transform.position - 0.5f * ca.transform.up;
         tutorialArrows = new List<GoalArrow>();
-        tutorialArrows.Add(new GoalArrow(player, Goal.FORWARD, t + 0.5f*ca.transform.forward, ca.transform.forward, ca.transform.up));
-        tutorialArrows.Add(new GoalArrow(player, Goal.BACKWARD, t - 0.5f*ca.transform.forward, -ca.transform.forward, -ca.transform.up));
+        tutorialArrows.Add(new GoalArrow(player, Goal.ZOOMIN, t + 0.5f*ca.transform.right + 0.5f*ca.transform.up, ca.transform.up, ca.transform.right));
+        tutorialArrows.Add(new GoalArrow(player, Goal.ZOOMOUT, t + 0.5f*ca.transform.right - 0.5f * ca.transform.up, -ca.transform.up, -ca.transform.right));
         tutorialPhase = 0;
     }
 }

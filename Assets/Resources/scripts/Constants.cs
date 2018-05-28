@@ -522,7 +522,7 @@ public class Constants : MonoBehaviour {
         new int[] {2,8,18,32,32,18,8,1}};
     public static readonly int[] shellSize = new int[] {2, 8, 18, 32, 32, 18, 8, 2};
 
-    public static readonly Color[] mapColors = new Color[]
+    /*public static readonly Color[] mapColors = new Color[]
     {
         new Color(0.25f, 0.0f, 0.0f, 1.0f),
         new Color(0.5f, 0.0f, 0.0f, 1.0f),
@@ -541,6 +541,28 @@ public class Constants : MonoBehaviour {
         new Color(0.0f, 0.7f, 1.0f, 1.0f),
         new Color(0.0f, 0.4f, 1.0f, 1.0f),
         new Color(0.0f, 0.0f, 1.0f, 1.0f),
+        new Color(0.0f, 0.0f, 0.0f, 1.0f)
+    };*/
+
+    public static readonly Color[] mapColors = new Color[] //new colors, darkened to allow bright text overlays
+    {
+        new Color(0.2f, 0.0f, 0.0f, 1.0f),
+        new Color(0.4f, 0.0f, 0.0f, 1.0f),
+        new Color(0.6f, 0.0f, 0.0f, 1.0f),
+        new Color(0.8f, 0.0f, 0.0f, 1.0f),
+        new Color(0.8f, 0.2f, 0.0f, 1.0f),
+        new Color(0.8f, 0.4f, 0.0f, 1.0f),
+        new Color(0.8f, 0.6f, 0.0f, 1.0f),
+        new Color(0.8f, 0.8f, 0.0f, 1.0f),
+        new Color(0.55f, 0.8f, 0.0f, 1.0f),
+        new Color(0.3f, 0.8f, 0.0f, 1.0f),
+        new Color(0.0f, 0.8f, 0.0f, 1.0f),
+        new Color(0.0f, 0.8f, 0.25f, 1.0f),
+        new Color(0.0f, 0.8f, 0.5f, 1.0f),
+        new Color(0.0f, 0.8f, 0.8f, 1.0f),
+        new Color(0.0f, 0.55f, 0.8f, 1.0f),
+        new Color(0.0f, 0.3f, 0.8f, 1.0f),
+        new Color(0.0f, 0.0f, 0.8f, 1.0f),
         new Color(0.0f, 0.0f, 0.0f, 1.0f)
     };
 
