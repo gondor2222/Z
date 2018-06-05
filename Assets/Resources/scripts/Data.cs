@@ -117,9 +117,9 @@ public class Data : MonoBehaviour {
     const float SPAWN_V_FACTOR = 25f;
     const int MAX_PARTICLES = 1000;
     const int AVG_SPAWN_VELOCITY = 1;
-    public const int START_P = 12;
-    public const int START_N = 10;
-    public const int START_E = 13;
+    public const int START_P = 1;
+    public const int START_N = 1;
+    public const int START_E = 0;
 
     private static readonly Properties.Del[] colorFunctions = new Properties.Del[] {
         delegate(int Z, int N, int E) { //Z
