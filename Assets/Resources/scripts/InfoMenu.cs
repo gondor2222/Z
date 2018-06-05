@@ -135,18 +135,21 @@ public class InfoMenu : MonoBehaviour {
         {
             return;
         }
-        if (textFrame <= fullDescription.Length && textFrame != fullDescription.Length)
+        if (textFrame < fullDescription.Length)
         {
+            textFrame += 2;
+            if (textFrame > fullDescription.Length)
+            {
+                textFrame = fullDescription.Length;
+            }
             description.text = fullDescription.Substring(0, textFrame);
-            textFrame+=2;
+            
             if (textFrame % 4 == 2)
             {
                 AudioSource.PlayClipAtPoint(pipClip, new Vector3(0, 0, 0), 0.2f);
             }
             
-            if (textFrame > fullDescription.Length) {
-                textFrame = fullDescription.Length;
-            }
+            
         }
 
         

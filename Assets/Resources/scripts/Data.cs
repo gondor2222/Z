@@ -117,9 +117,9 @@ public class Data : MonoBehaviour {
     const float SPAWN_V_FACTOR = 25f;
     const int MAX_PARTICLES = 1000;
     const int AVG_SPAWN_VELOCITY = 1;
-    public const int START_P = 1;
-    public const int START_N = 1;
-    public const int START_E = 0;
+    public const int START_P = 12;
+    public const int START_N = 10;
+    public const int START_E = 13;
 
     private static readonly Properties.Del[] colorFunctions = new Properties.Del[] {
         delegate(int Z, int N, int E) { //Z
@@ -616,7 +616,7 @@ public class Data : MonoBehaviour {
                     case Goal.ZOOMIN:
                         if (Input.GetAxis("Zoom") > 0 || Input.GetAxis("Zoom2") > 0)
                         {
-                            arrow.progress += 5f*progressPerFrame;
+                            arrow.progress += 9f*progressPerFrame;
                         }
                         else
                         {
@@ -626,7 +626,7 @@ public class Data : MonoBehaviour {
                     case Goal.ZOOMOUT:
                         if (Input.GetAxis("Zoom") < 0 || Input.GetAxis("Zoom2") < 0)
                         {
-                            arrow.progress += 5f*progressPerFrame;
+                            arrow.progress += 9f*progressPerFrame;
                         }
                         else
                         {
@@ -696,7 +696,7 @@ public class Data : MonoBehaviour {
                     case Goal.PITCHUP:
                         if (Input.GetAxis("P") > 0 && Input.GetMouseButton(0))
                         {
-                            arrow.progress += 2 * progressPerFrame;
+                            arrow.progress += 4 * progressPerFrame;
                         }
                         else
                         {
@@ -706,7 +706,7 @@ public class Data : MonoBehaviour {
                     case Goal.PITCHDOWN:
                         if (Input.GetAxis("P") < 0 && Input.GetMouseButton(0))
                         {
-                            arrow.progress += 2 * progressPerFrame;
+                            arrow.progress += 4 * progressPerFrame;
                         }
                         else
                         {
@@ -716,7 +716,7 @@ public class Data : MonoBehaviour {
                     case Goal.YAWLEFT:
                         if (Input.GetAxis("Y") < 0 && Input.GetMouseButton(0))
                         {
-                            arrow.progress += 2 * progressPerFrame;
+                            arrow.progress += 4 * progressPerFrame;
                         }
                         else
                         {
@@ -726,7 +726,7 @@ public class Data : MonoBehaviour {
                     case Goal.YAWRIGHT:
                         if (Input.GetAxis("Y") > 0 && Input.GetMouseButton(0))
                         {
-                            arrow.progress += 2 * progressPerFrame;
+                            arrow.progress += 4 * progressPerFrame;
                         }
                         else
                         {

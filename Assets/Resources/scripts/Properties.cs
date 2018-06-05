@@ -182,7 +182,7 @@ public class Properties : MonoBehaviour {
             mo = GetComponent<Movement>();
             mo.max_zoom = -radius;
             rb.angularDrag = 0.8f;
-            rb.drag = 0.5f;
+            rb.drag = 1.5f;
         }
         else
         {

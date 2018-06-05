@@ -835,7 +835,8 @@ public class Constants : MonoBehaviour {
         System.Diagnostics.Stopwatch watch = System.Diagnostics.Stopwatch.StartNew();
         
         decaytypes = new double[MAXP+1,MAXN+1][,];
-        string descriptionText = System.IO.File.ReadAllText("Assets/Resources/scripts/Descriptions.txt");
+        TextAsset textAsset = Resources.Load("scripts/Descriptions") as TextAsset;
+        string descriptionText = textAsset.text;
         if (descriptionText != null)
         {
             descriptions = System.Text.RegularExpressions.Regex.Split(descriptionText, "------");
